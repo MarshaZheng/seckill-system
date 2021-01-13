@@ -23,12 +23,12 @@
         <div class="message">淘多多商城-后台登录</div>
         <div id="darkbannerwrap"></div>
         
-        <form id="form1" name="form1" method="post" class="layui-form" action="#">
+        <form id="form1" name="form1" method="post" class="layui-form" action="/index.php/admin/Login/dologin">
             <input name="username" placeholder="用户名"  type="text" lay-verify="required|name" class="layui-input" >
             <hr class="hr15">
             <input name="password" lay-verify="required|password" placeholder="密码"  type="password" class="layui-input">
             <hr class="hr15">
-            <button class="layui-btn layui-btn-lg" lay-submit lay-filter="login" style="width:100%;" >登录</button>
+            <button class="layui-btn layui-btn-lg" lay-submit lay-filter="login" style="width:100%;" type="submit">登录</button>
 
             <hr class="hr20" >
         </form>
@@ -59,35 +59,30 @@
                 }
             }
         });
-        form.on('submit(login)', function (data) {
-            $.ajax({
-                url:'/index.php/admin/login/dologin',
-                type:'post',
-                data:data.field,
-                dataType:"json ",
-                success:function(data){
-                    if(data){
-                        layer.alert("提交成功！")
-                    }
-                    else{
-                        layer.alert("提交失败1！")
-                    }
-                },
-                error:function(e){
-                layer.alert("提交失败2！")
-                },
+        // form.on('submit(login)', function (data) {
+        //     $.ajax({
+        //         url:'/index.php/admin/login/dologin',
+        //         type:'post',
+        //         data:data.field,
+        //         dataType:"json ",
+        //         success:function(data){
+        //             if(data==1){
+        //                 layer.alert("提交成功！")
+        //             }
+        //             else{
+        //                 layer.alert("提交失败1！")
+        //             }
+        //         },
+        //         error:function(e){
+        //         layer.alert("提交失败2！")
+        //         },
                 
-            });
-            return false;
-        });
+        //     });
+        //     return false;
+        // });
     });
 
 
-    layui.use('form', function(){
-        var form = layui.form;
-    //监听提交
-        
-});
   </script>
     <!-- 底部结束 -->
 </body>
