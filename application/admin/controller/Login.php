@@ -13,7 +13,12 @@ class Login extends Controller {
      * 登入
      */
     public function index() {
-
+            if(isset($_COOKIE['token'])){
+                $data = Db::table('seckill_admin')->where('token',$_COOKIE['token'])->find();
+                if($data&&$data['expire_time']>time()){
+                    $this->success('尊敬的'.$data['username'].',您已登录!', 'main/index');
+                }
+            }
             return $this->fetch();
         
     }
@@ -57,33 +62,14 @@ class Login extends Controller {
         $password = $_REQUEST['password'];
         $data=Db::table('seckill_admin')->where('username',$username)->find();
         if($data['password']==md5($password)){
-            session('user_name', $data['username']);
-            session('user_id', $data['id']);
-            cookie('user_name', $data['username']);
-            cookie('user_id', $data['id']);
-            //记录登录信息
-            //Loader::model('Admin')->editInfo(1, $info['id']);
-            // $logindata = array('loginip'=>request()->ip(),'logintime'=>time());
-            // $result = Db::table('admin')->where('username', $username)->setField($logindata);
-            // if($result !== false){
-            //     echo '数据更新成功！';
-            // }else{
-            //     echo '没更新任何数据！';
-            // }
-            // if($data['role']=="高级管理员"){
-            //     $this->success('登录成功', 'main/index');
-            // }
-            // else{
-            //     $this->success('登录成功', 'main2/index');
-            // }
-            
+            // session('user_name', $data['username']);
+            // session('user_id', $data['id']);
+            // cookie('user_name', $data['username']);
+            // cookie('user_id', $data['id']);
+            //更新token
+            $this->set_token($data['id']);
             $this->success('登录成功', 'main/index');
-            // //记录用户登陆时间和ip
-            // $logindata = array('loginip'=>'123.1234.1234.123');
-            // // $result = Db::table('crm_user')->where('username', $username)->setField('loginip','123.123.123123');
-
-
-
+          
 
         }
         else{
@@ -91,5 +77,26 @@ class Login extends Controller {
         }
         //假设用户名密码争取
         
+    }
+
+    private function set_token($id){
+        $key = "pig";
+        $time = time();
+        $expire = 3600;//一小时后失效
+        $data = $key.$id.$time;
+        $token = base64_encode($data);
+        $update = array('token'=>$token,'expire_time'=>$time+$expire);
+        $result = Db::table('seckill_admin')->where('id', $id)->setField($update);
+        if($result){
+            setcookie('token', $token,time() + 24 * 3600,'/');
+            if(isset($_COOKIE['token'])){
+                echo 'cookie设置成功';
+            }else{
+                echo 'cookie设置失败';
+            }
+            return true;
+        }else{
+            return false;
+        }
     }
 }

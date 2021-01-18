@@ -3560,3 +3560,2825 @@
 )
 [ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/main/welcome.html [ array (
 ) ]
+---------------------------------------------------------------
+
+[2021-01-18T13:59:16+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin
+[运行时间：0.016012s] [吞吐率：62.45req/s] [内存消耗：1,834.13kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610599183; PHPSESSID=35e9d13669a28c769c31e441adcb17c1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T13:59:16+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.012202s] [吞吐率：81.95req/s] [内存消耗：1,404.26kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://47.94.233.201/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610599183; PHPSESSID=35e9d13669a28c769c31e441adcb17c1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T13:59:17+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html?0.40059787255658086
+[运行时间：0.013850s] [吞吐率：72.20req/s] [内存消耗：1,404.95kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://47.94.233.201/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610599183; PHPSESSID=35e9d13669a28c769c31e441adcb17c1',
+)
+[ info ] [ PARAM ] array (
+  '0_40059787255658086' => '',
+)
+---------------------------------------------------------------
+
+[2021-01-18T13:59:17+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html?0.8000707436938848
+[运行时间：0.013288s] [吞吐率：75.26req/s] [内存消耗：1,404.95kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://47.94.233.201/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610599183; PHPSESSID=35e9d13669a28c769c31e441adcb17c1',
+)
+[ info ] [ PARAM ] array (
+  '0_8000707436938848' => '',
+)
+---------------------------------------------------------------
+
+[2021-01-18T13:59:18+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html?0.9734707267085632
+[运行时间：0.018167s] [吞吐率：55.04req/s] [内存消耗：1,404.95kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://47.94.233.201/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610599183; PHPSESSID=35e9d13669a28c769c31e441adcb17c1',
+)
+[ info ] [ PARAM ] array (
+  '0_9734707267085632' => '',
+)
+---------------------------------------------------------------
+
+[2021-01-18T14:59:14+08:00] 164.68.112.178 GET /
+[运行时间：0.016484s] [吞吐率：60.66req/s] [内存消耗：1,831.07kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'masscan/1.0 (https://github.com/robertdavidgraham/masscan)',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T15:21:22+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin
+[运行时间：0.017760s] [吞吐率：56.31req/s] [内存消耗：1,733.92kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '<name>',
+  'route' => 'index/hello',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'name' => '\\w+',
+  ),
+  'var' => 
+  array (
+    'name' => 'admin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610599183; PHPSESSID=35e9d13669a28c769c31e441adcb17c1',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+)
+---------------------------------------------------------------
+
+[2021-01-18T15:21:31+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login
+[运行时间：0.015030s] [吞吐率：66.53req/s] [内存消耗：1,733.54kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '<name>',
+  'route' => 'index/hello',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'name' => '\\w+',
+  ),
+  'var' => 
+  array (
+    'name' => 'admin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610599183; PHPSESSID=35e9d13669a28c769c31e441adcb17c1',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+)
+---------------------------------------------------------------
+
+[2021-01-18T15:21:33+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login
+[运行时间：0.014967s] [吞吐率：66.81req/s] [内存消耗：1,733.93kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '<name>',
+  'route' => 'index/hello',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'name' => '\\w+',
+  ),
+  'var' => 
+  array (
+    'name' => 'admin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610599183; PHPSESSID=35e9d13669a28c769c31e441adcb17c1',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+)
+---------------------------------------------------------------
+
+[2021-01-18T15:21:45+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login
+[运行时间：0.015980s] [吞吐率：62.58req/s] [内存消耗：1,834.20kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610599183; PHPSESSID=35e9d13669a28c769c31e441adcb17c1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T15:21:46+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.012885s] [吞吐率：77.61req/s] [内存消耗：1,404.40kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://47.94.233.201/index.php/admin/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610599183; PHPSESSID=35e9d13669a28c769c31e441adcb17c1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T15:22:04+08:00] 115.27.209.113 GET 47.94.233.201/
+[运行时间：0.017276s] [吞吐率：57.88req/s] [内存消耗：1,833.69kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610599183; PHPSESSID=35e9d13669a28c769c31e441adcb17c1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T15:22:06+08:00] 115.27.209.113 GET 47.94.233.201/
+[运行时间：0.015832s] [吞吐率：63.16req/s] [内存消耗：1,834.08kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610599183; PHPSESSID=35e9d13669a28c769c31e441adcb17c1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T15:22:13+08:00] 115.27.209.113 GET 47.94.233.201/index.php
+[运行时间：0.015565s] [吞吐率：64.25req/s] [内存消耗：1,833.66kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610599183; PHPSESSID=35e9d13669a28c769c31e441adcb17c1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T15:22:13+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.016393s] [吞吐率：61.00req/s] [内存消耗：1,404.25kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://47.94.233.201/index.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610599183; PHPSESSID=35e9d13669a28c769c31e441adcb17c1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T15:22:24+08:00] 115.27.209.113 POST 47.94.233.201/index.php/admin/Login/dologin
+[运行时间：0.024748s] [吞吐率：40.41req/s] [内存消耗：2,741.55kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'content-length' => '45',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://47.94.233.201',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://47.94.233.201/index.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610599183; PHPSESSID=35e9d13669a28c769c31e441adcb17c1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'root',
+  'password' => '123456',
+  'verifyCode' => '1243',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/seckill-system/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000356s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `username` = 'root' LIMIT 1 [ RunTime:0.000288s ]
+---------------------------------------------------------------
+
+[2021-01-18T15:22:27+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/index.html
+[运行时间：0.017352s] [吞吐率：57.63req/s] [内存消耗：1,807.77kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://47.94.233.201/index.php/admin/Login/dologin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610599183; PHPSESSID=35e9d13669a28c769c31e441adcb17c1; user_name=root; user_id=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/main/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T15:22:27+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/welcome.html
+[运行时间：0.017503s] [吞吐率：57.13req/s] [内存消耗：1,797.24kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610599183; PHPSESSID=35e9d13669a28c769c31e441adcb17c1; user_name=root; user_id=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/main/welcome.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T15:22:27+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/goods.html
+[运行时间：0.097909s] [吞吐率：10.21req/s] [内存消耗：1,837.11kb] [文件加载：68]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; PHPSESSID=35e9d13669a28c769c31e441adcb17c1; user_name=root; user_id=1; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610954547',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T15:22:27+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/item_type_list.html
+[运行时间：0.093775s] [吞吐率：10.66req/s] [内存消耗：2,868.66kb] [文件加载：73]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; PHPSESSID=35e9d13669a28c769c31e441adcb17c1; user_name=root; user_id=1; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610954547',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/main/item_type_list.html [ array (
+  0 => 'list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000451s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_item_type` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_item_type` [ RunTime:0.000206s ]
+---------------------------------------------------------------
+
+[2021-01-18T15:22:27+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/advert_place_list.html
+[运行时间：0.060788s] [吞吐率：16.45req/s] [内存消耗：2,862.86kb] [文件加载：73]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; PHPSESSID=35e9d13669a28c769c31e441adcb17c1; user_name=root; user_id=1; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610954547',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/main/advert_place_list.html [ array (
+  0 => 'list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001676s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_advert_place` [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_advert_place` [ RunTime:0.000210s ]
+---------------------------------------------------------------
+
+[2021-01-18T15:22:27+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/order_set.html
+[运行时间：0.080563s] [吞吐率：12.41req/s] [内存消耗：1,837.15kb] [文件加载：68]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; PHPSESSID=35e9d13669a28c769c31e441adcb17c1; user_name=root; user_id=1; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610954547',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T15:22:27+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/sale.html
+[运行时间：0.096508s] [吞吐率：10.36req/s] [内存消耗：1,837.10kb] [文件加载：68]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; PHPSESSID=35e9d13669a28c769c31e441adcb17c1; user_name=root; user_id=1; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610954547',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T15:22:27+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/item_list.html
+[运行时间：0.063056s] [吞吐率：15.86req/s] [内存消耗：2,879.08kb] [文件加载：73]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; PHPSESSID=35e9d13669a28c769c31e441adcb17c1; user_name=root; user_id=1; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610954547',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/main/item_list.html [ array (
+  0 => 'list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000462s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_item` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_item` [ RunTime:0.000212s ]
+---------------------------------------------------------------
+
+[2021-01-18T15:22:27+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/sale-list.html
+[运行时间：0.015759s] [吞吐率：63.46req/s] [内存消耗：1,837.15kb] [文件加载：68]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; PHPSESSID=35e9d13669a28c769c31e441adcb17c1; user_name=root; user_id=1; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610954547',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T15:22:27+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/admin-list.html
+[运行时间：0.032836s] [吞吐率：30.45req/s] [内存消耗：1,837.15kb] [文件加载：68]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; PHPSESSID=35e9d13669a28c769c31e441adcb17c1; user_name=root; user_id=1; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610954547',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T15:22:27+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/admin-role.html
+[运行时间：0.019114s] [吞吐率：52.32req/s] [内存消耗：1,837.15kb] [文件加载：68]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; PHPSESSID=35e9d13669a28c769c31e441adcb17c1; user_name=root; user_id=1; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610954547',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T16:21:19+08:00] 115.27.209.113 GET 47.94.233.201/
+[运行时间：0.015610s] [吞吐率：64.06req/s] [内存消耗：1,834.23kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T16:21:23+08:00] 115.27.209.113 GET 47.94.233.201/
+[运行时间：0.015453s] [吞吐率：64.71req/s] [内存消耗：1,834.23kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T16:21:24+08:00] 115.27.209.113 GET 47.94.233.201/index.php
+[运行时间：0.026139s] [吞吐率：38.26req/s] [内存消耗：1,834.20kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T16:21:24+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.012227s] [吞吐率：81.79req/s] [内存消耗：1,405.02kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://47.94.233.201/index.php',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T16:21:25+08:00] 115.27.209.113 GET 47.94.233.201/
+[运行时间：0.015506s] [吞吐率：64.49req/s] [内存消耗：1,834.23kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T16:40:40+08:00] 115.27.209.113 GET 47.94.233.201/
+[运行时间：0.032870s] [吞吐率：30.42req/s] [内存消耗：1,817.46kb] [文件加载：67]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]Use of undefined constant cookie - assumed 'cookie'[/var/www/html/seckill-system/application/admin/controller/Login.php:16]
+---------------------------------------------------------------
+
+[2021-01-18T16:40:44+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/index.html
+[运行时间：0.016859s] [吞吐率：59.32req/s] [内存消耗：1,837.09kb] [文件加载：68]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]Use of undefined constant cookie - assumed 'cookie'[/var/www/html/seckill-system/application/admin/controller/Common.php:16]
+---------------------------------------------------------------
+
+[2021-01-18T16:40:47+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/
+[运行时间：0.017677s] [吞吐率：56.57req/s] [内存消耗：1,836.99kb] [文件加载：68]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]Use of undefined constant cookie - assumed 'cookie'[/var/www/html/seckill-system/application/admin/controller/Common.php:16]
+---------------------------------------------------------------
+
+[2021-01-18T16:45:04+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/
+[运行时间：0.017045s] [吞吐率：58.67req/s] [内存消耗：1,836.69kb] [文件加载：68]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: token[/var/www/html/seckill-system/application/admin/controller/Common.php:16]
+---------------------------------------------------------------
+
+[2021-01-18T16:46:18+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/
+[运行时间：0.015669s] [吞吐率：63.82req/s] [内存消耗：1,848.44kb] [文件加载：67]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T16:46:21+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login/index.html
+[运行时间：0.015840s] [吞吐率：63.13req/s] [内存消耗：1,818.45kb] [文件加载：67]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]Use of undefined constant cookie - assumed 'cookie'[/var/www/html/seckill-system/application/admin/controller/Login.php:16]
+---------------------------------------------------------------
+
+[2021-01-18T16:48:35+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login/index.html
+[运行时间：0.016296s] [吞吐率：61.36req/s] [内存消耗：1,817.77kb] [文件加载：67]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]Use of undefined constant cookie - assumed 'cookie'[/var/www/html/seckill-system/application/admin/controller/Login.php:16]
+---------------------------------------------------------------
+
+[2021-01-18T16:48:39+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/
+[运行时间：0.016081s] [吞吐率：62.18req/s] [内存消耗：1,848.44kb] [文件加载：67]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T16:48:42+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login/index.html
+[运行时间：0.017897s] [吞吐率：55.87req/s] [内存消耗：1,818.45kb] [文件加载：67]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]Use of undefined constant cookie - assumed 'cookie'[/var/www/html/seckill-system/application/admin/controller/Login.php:16]
+---------------------------------------------------------------
+
+[2021-01-18T16:48:56+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login/index.html
+[运行时间：0.021963s] [吞吐率：45.53req/s] [内存消耗：2,657.08kb] [文件加载：72]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: token[/var/www/html/seckill-system/application/admin/controller/Login.php:17]
+---------------------------------------------------------------
+
+[2021-01-18T16:49:28+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login/index.html
+[运行时间：0.016128s] [吞吐率：62.00req/s] [内存消耗：1,836.19kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T16:49:28+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.013175s] [吞吐率：75.90req/s] [内存消耗：1,405.17kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T16:49:42+08:00] 115.27.209.113 POST 47.94.233.201/index.php/admin/Login/dologin
+[运行时间：0.025932s] [吞吐率：38.56req/s] [内存消耗：2,732.17kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://47.94.233.201',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'content-length' => '45',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'root',
+  'password' => '123456',
+  'verifyCode' => '3534',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001496s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `username` = 'root' LIMIT 1 [ RunTime:0.000280s ]
+[ error ] [8]未定义变量: id[/var/www/html/seckill-system/application/admin/controller/Login.php:89]
+---------------------------------------------------------------
+
+[2021-01-18T16:50:16+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/Login/dologin
+[运行时间：0.017883s] [吞吐率：55.92req/s] [内存消耗：1,817.73kb] [文件加载：67]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: username[/var/www/html/seckill-system/application/admin/controller/Login.php:61]
+---------------------------------------------------------------
+
+[2021-01-18T16:50:49+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/Login/login
+[运行时间：0.015912s] [吞吐率：62.85req/s] [内存消耗：1,813.55kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T16:50:53+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/Login/login
+[运行时间：0.016739s] [吞吐率：59.74req/s] [内存消耗：1,813.55kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T16:50:54+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/Login/dologin
+[运行时间：0.020237s] [吞吐率：49.41req/s] [内存消耗：1,817.73kb] [文件加载：67]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: username[/var/www/html/seckill-system/application/admin/controller/Login.php:61]
+---------------------------------------------------------------
+
+[2021-01-18T16:50:54+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/Login/
+[运行时间：0.024205s] [吞吐率：41.31req/s] [内存消耗：1,836.08kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T16:50:54+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.013107s] [吞吐率：76.29req/s] [内存消耗：1,405.05kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://47.94.233.201/index.php/admin/Login/',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T16:51:04+08:00] 115.27.209.113 POST 47.94.233.201/index.php/admin/Login/dologin
+[运行时间：0.026296s] [吞吐率：38.03req/s] [内存消耗：2,732.16kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://47.94.233.201',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://47.94.233.201/index.php/admin/Login/',
+  'content-length' => '45',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'root',
+  'password' => '123456',
+  'verifyCode' => '4472',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001472s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `username` = 'root' LIMIT 1 [ RunTime:0.000320s ]
+[ error ] [8]未定义变量: username[/var/www/html/seckill-system/application/admin/controller/Login.php:86]
+---------------------------------------------------------------
+
+[2021-01-18T16:51:22+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/Login/
+[运行时间：0.018911s] [吞吐率：52.88req/s] [内存消耗：1,836.06kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T16:51:22+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.012221s] [吞吐率：81.83req/s] [内存消耗：1,405.05kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://47.94.233.201/index.php/admin/Login/',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T16:51:31+08:00] 115.27.209.113 POST 47.94.233.201/index.php/admin/Login/dologin
+[运行时间：0.029425s] [吞吐率：33.98req/s] [内存消耗：2,792.39kb] [文件加载：76]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://47.94.233.201',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://47.94.233.201/index.php/admin/Login/',
+  'content-length' => '45',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'root',
+  'password' => '123456',
+  'verifyCode' => '1846',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000407s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000840s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `username` = 'root' LIMIT 1 [ RunTime:0.000299s ]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'seckill_system.admin' doesn't exist[/var/www/html/seckill-system/thinkphp/library/think/db/Connection.php:687]
+---------------------------------------------------------------
+
+[2021-01-18T16:52:05+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/Login/dologin
+[运行时间：0.018411s] [吞吐率：54.32req/s] [内存消耗：1,817.72kb] [文件加载：67]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: username[/var/www/html/seckill-system/application/admin/controller/Login.php:61]
+---------------------------------------------------------------
+
+[2021-01-18T16:52:05+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/Login/
+[运行时间：0.015956s] [吞吐率：62.67req/s] [内存消耗：1,836.06kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T16:52:05+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.013046s] [吞吐率：76.65req/s] [内存消耗：1,405.05kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://47.94.233.201/index.php/admin/Login/',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T16:52:15+08:00] 115.27.209.113 POST 47.94.233.201/index.php/admin/Login/dologin
+[运行时间：0.027405s] [吞吐率：36.49req/s] [内存消耗：2,741.41kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://47.94.233.201',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://47.94.233.201/index.php/admin/Login/',
+  'content-length' => '45',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'root',
+  'password' => '123456',
+  'verifyCode' => '6345',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/seckill-system/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000353s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `username` = 'root' LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] UPDATE `seckill_admin`  SET `token` = 'cGlnMTE2MTA5NTk5MzU=' , `expire_time` = 1610963535  WHERE  `id` = 1 [ RunTime:0.002972s ]
+---------------------------------------------------------------
+
+[2021-01-18T16:52:18+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/index.html
+[运行时间：0.015705s] [吞吐率：63.67req/s] [内存消耗：1,849.25kb] [文件加载：67]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'referer' => 'http://47.94.233.201/index.php/admin/Login/dologin',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T16:52:21+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login/index.html
+[运行时间：0.015655s] [吞吐率：63.88req/s] [内存消耗：1,836.96kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T16:52:21+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.011861s] [吞吐率：84.31req/s] [内存消耗：1,405.05kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T16:56:17+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login/index.html
+[运行时间：0.016027s] [吞吐率：62.39req/s] [内存消耗：1,836.57kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T16:56:17+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.012619s] [吞吐率：79.25req/s] [内存消耗：1,405.17kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T16:56:26+08:00] 115.27.209.113 POST 47.94.233.201/index.php/admin/Login/dologin
+[运行时间：0.026221s] [吞吐率：38.14req/s] [内存消耗：2,741.84kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://47.94.233.201',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'content-length' => '45',
+  'cookie' => 'token=cGlnMTE2MTA5NTk5MzU%3D; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'root',
+  'password' => '123456',
+  'verifyCode' => '5124',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/seckill-system/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000351s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `username` = 'root' LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] UPDATE `seckill_admin`  SET `token` = 'cGlnMTE2MTA5NjAxODY=' , `expire_time` = 1610963786  WHERE  `id` = 1 [ RunTime:0.001963s ]
+---------------------------------------------------------------
+
+[2021-01-18T16:56:29+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/index.html
+[运行时间：0.015689s] [吞吐率：63.74req/s] [内存消耗：1,849.25kb] [文件加载：67]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'referer' => 'http://47.94.233.201/index.php/admin/Login/dologin',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T16:56:33+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login/index.html
+[运行时间：0.015552s] [吞吐率：64.30req/s] [内存消耗：1,837.37kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T16:56:33+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.012041s] [吞吐率：83.05req/s] [内存消耗：1,405.05kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T16:58:07+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login/index.html
+[运行时间：0.014973s] [吞吐率：66.79req/s] [内存消耗：1,836.70kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T16:58:07+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.011500s] [吞吐率：86.96req/s] [内存消耗：1,405.17kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T16:58:17+08:00] 115.27.209.113 POST 47.94.233.201/index.php/admin/Login/dologin
+[运行时间：0.026861s] [吞吐率：37.23req/s] [内存消耗：2,742.02kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://47.94.233.201',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'content-length' => '45',
+  'cookie' => 'token=cGlnMTE2MTA5NjAxODY%3D; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'root',
+  'password' => '123456',
+  'verifyCode' => '8949',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/seckill-system/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000411s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `username` = 'root' LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] UPDATE `seckill_admin`  SET `token` = 'cGlnMTE2MTA5NjAyOTc=' , `expire_time` = 1610963897  WHERE  `id` = 1 [ RunTime:0.001938s ]
+---------------------------------------------------------------
+
+[2021-01-18T16:58:20+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/index.html
+[运行时间：0.015783s] [吞吐率：63.36req/s] [内存消耗：1,849.25kb] [文件加载：67]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'referer' => 'http://47.94.233.201/index.php/admin/Login/dologin',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T16:58:23+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login/index.html
+[运行时间：0.016369s] [吞吐率：61.09req/s] [内存消耗：1,837.49kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T16:58:23+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.012507s] [吞吐率：79.96req/s] [内存消耗：1,405.05kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T17:00:48+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login/index.html
+[运行时间：0.015844s] [吞吐率：63.11req/s] [内存消耗：1,837.14kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; PHPSESSID=35e9d13669a28c769c31e441adcb17c1; user_name=root; user_id=1; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610954547',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T17:00:49+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.012007s] [吞吐率：83.28req/s] [内存消耗：1,405.02kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; PHPSESSID=35e9d13669a28c769c31e441adcb17c1; user_name=root; user_id=1; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610954547',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T17:00:55+08:00] 115.27.209.113 POST 47.94.233.201/index.php/admin/Login/dologin
+[运行时间：0.026169s] [吞吐率：38.21req/s] [内存消耗：2,742.62kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'content-length' => '45',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://47.94.233.201',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; PHPSESSID=35e9d13669a28c769c31e441adcb17c1; user_name=root; user_id=1; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610954547',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'root',
+  'password' => '123456',
+  'verifyCode' => '3523',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/seckill-system/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000356s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `username` = 'root' LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] UPDATE `seckill_admin`  SET `token` = 'cGlnMTE2MTA5NjA0NTU=' , `expire_time` = 1610964055  WHERE  `id` = 1 [ RunTime:0.002143s ]
+---------------------------------------------------------------
+
+[2021-01-18T17:00:59+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/index.html
+[运行时间：0.017637s] [吞吐率：56.70req/s] [内存消耗：1,849.82kb] [文件加载：67]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://47.94.233.201/index.php/admin/Login/dologin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; PHPSESSID=35e9d13669a28c769c31e441adcb17c1; user_name=root; user_id=1; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610954547',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T17:01:02+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login/index.html
+[运行时间：0.017959s] [吞吐率：55.68req/s] [内存消耗：1,838.06kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; PHPSESSID=35e9d13669a28c769c31e441adcb17c1; user_name=root; user_id=1; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610954547',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T17:01:02+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.011942s] [吞吐率：83.74req/s] [内存消耗：1,405.02kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; PHPSESSID=35e9d13669a28c769c31e441adcb17c1; user_name=root; user_id=1; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610954547',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T17:04:41+08:00] 115.27.209.113 POST 47.94.233.201/index.php/admin/Login/dologin
+[运行时间：0.027117s] [吞吐率：36.88req/s] [内存消耗：2,729.36kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'connection' => 'keep-alive',
+  'content-length' => '45',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://47.94.233.201',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'token=cGlnMTE2MTA5NjA0NTU%3D; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1609342090,1609918954; PHPSESSID=35e9d13669a28c769c31e441adcb17c1; user_name=root; user_id=1; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610954547',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'root',
+  'password' => '123456',
+  'verifyCode' => '4781',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000345s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `username` = 'root' LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] UPDATE `seckill_admin`  SET `token` = 'cGlnMTE2MTA5NjA2ODE=' , `expire_time` = 1610964281  WHERE  `id` = 1 [ RunTime:0.001995s ]
+[ error ] [0]致命错误: Class 'app\admin\controller\Cookie' not found[/var/www/html/seckill-system/application/admin/controller/Login.php:91]
+---------------------------------------------------------------
+
+[2021-01-18T17:07:42+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login/index.html
+[运行时间：0.015850s] [吞吐率：63.09req/s] [内存消耗：1,837.15kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T17:07:42+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.011698s] [吞吐率：85.48req/s] [内存消耗：1,405.17kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T17:07:49+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html?0.72600133151972
+[运行时间：0.012187s] [吞吐率：82.05req/s] [内存消耗：1,405.87kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  '0_72600133151972' => '',
+)
+---------------------------------------------------------------
+
+[2021-01-18T17:07:51+08:00] 115.27.209.113 POST 47.94.233.201/index.php/admin/Login/dologin
+[运行时间：0.029734s] [吞吐率：33.63req/s] [内存消耗：2,729.36kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://47.94.233.201',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'content-length' => '45',
+  'cookie' => 'token=cGlnMTE2MTA5NjAyOTc%3D; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'root',
+  'password' => '123456',
+  'verifyCode' => '2231',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `username` = 'root' LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] UPDATE `seckill_admin`  SET `token` = 'cGlnMTE2MTA5NjA4NzE=' , `expire_time` = 1610964471  WHERE  `id` = 1 [ RunTime:0.002017s ]
+[ error ] [0]致命错误: Class 'app\admin\controller\Cookie' not found[/var/www/html/seckill-system/application/admin/controller/Login.php:91]
+---------------------------------------------------------------
+
+[2021-01-18T17:10:26+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/Login/dologin
+[运行时间：0.016186s] [吞吐率：61.78req/s] [内存消耗：1,818.53kb] [文件加载：67]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'token=cGlnMTE2MTA5NjAyOTc%3D; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: username[/var/www/html/seckill-system/application/admin/controller/Login.php:61]
+---------------------------------------------------------------
+
+[2021-01-18T17:10:31+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/Login/
+[运行时间：0.023003s] [吞吐率：43.47req/s] [内存消耗：2,664.34kb] [文件加载：73]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'token=cGlnMTE2MTA5NjAyOTc%3D; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000342s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'seckill_system.admin' doesn't exist[/var/www/html/seckill-system/thinkphp/library/think/db/Connection.php:687]
+---------------------------------------------------------------
+
+[2021-01-18T17:10:39+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/Login/
+[运行时间：0.028264s] [吞吐率：35.38req/s] [内存消耗：2,664.34kb] [文件加载：73]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'token=cGlnMTE2MTA5NjAyOTc%3D; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000339s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'seckill_system.admin' doesn't exist[/var/www/html/seckill-system/thinkphp/library/think/db/Connection.php:687]
+---------------------------------------------------------------
+
+[2021-01-18T17:11:08+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/Login/
+[运行时间：0.023663s] [吞吐率：42.26req/s] [内存消耗：2,689.80kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'token=cGlnMTE2MTA5NjAyOTc%3D; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000360s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `token` = 'cGlnMTE2MTA5NjAyOTc=' LIMIT 1 [ RunTime:0.000265s ]
+---------------------------------------------------------------
+
+[2021-01-18T17:11:08+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.012129s] [吞吐率：82.45req/s] [内存消耗：1,405.05kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://47.94.233.201/index.php/admin/Login/',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T17:11:33+08:00] 115.27.209.113 POST 47.94.233.201/index.php/admin/Login/dologin
+[运行时间：0.025752s] [吞吐率：38.83req/s] [内存消耗：2,744.37kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://47.94.233.201',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://47.94.233.201/index.php/admin/Login/',
+  'content-length' => '46',
+  'cookie' => 'token=cGlnMTE2MTA5NjAyOTc%3D; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'root',
+  'password' => '1234566',
+  'verifyCode' => '6218',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/seckill-system/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000334s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `username` = 'root' LIMIT 1 [ RunTime:0.000259s ]
+---------------------------------------------------------------
+
+[2021-01-18T17:11:36+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login/index.html
+[运行时间：0.024153s] [吞吐率：41.40req/s] [内存消耗：1,837.49kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'referer' => 'http://47.94.233.201/index.php/admin/Login/dologin',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T17:11:36+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.011876s] [吞吐率：84.20req/s] [内存消耗：1,405.05kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T17:12:31+08:00] 115.27.209.113 POST 47.94.233.201/index.php/admin/Login/dologin
+[运行时间：0.026498s] [吞吐率：37.74req/s] [内存消耗：2,728.73kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://47.94.233.201',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'content-length' => '45',
+  'cookie' => 'token=cGlnMTE2MTA5NjAyOTc%3D; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'root',
+  'password' => '123456',
+  'verifyCode' => '2895',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000345s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `username` = 'root' LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] UPDATE `seckill_admin`  SET `token` = 'cGlnMTE2MTA5NjExNTE=' , `expire_time` = 1610964751  WHERE  `id` = 1 [ RunTime:0.001916s ]
+[ error ] [0]致命错误: Function name must be a string[/var/www/html/seckill-system/application/admin/controller/Login.php:91]
+---------------------------------------------------------------
+
+[2021-01-18T17:12:49+08:00] 115.27.209.113 POST 47.94.233.201/index.php/admin/Login/dologin
+[运行时间：0.015487s] [吞吐率：64.57req/s] [内存消耗：1,833.73kb] [文件加载：68]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://47.94.233.201',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'content-length' => '45',
+  'cookie' => 'token=cGlnMTE2MTA5NjAyOTc%3D; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'root',
+  'password' => '123456',
+  'verifyCode' => '2895',
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T17:12:56+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html?0.6485627290864111
+[运行时间：0.012224s] [吞吐率：81.80req/s] [内存消耗：1,405.74kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  '0_6485627290864111' => '',
+)
+---------------------------------------------------------------
+
+[2021-01-18T17:13:00+08:00] 115.27.209.113 POST 47.94.233.201/index.php/admin/Login/dologin
+[运行时间：0.026164s] [吞吐率：38.22req/s] [内存消耗：2,741.91kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://47.94.233.201',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'content-length' => '45',
+  'cookie' => 'token=cGlnMTE2MTA5NjAyOTc%3D; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'root',
+  'password' => '123456',
+  'verifyCode' => '1626',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/seckill-system/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000323s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `username` = 'root' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] UPDATE `seckill_admin`  SET `token` = 'cGlnMTE2MTA5NjExODA=' , `expire_time` = 1610964780  WHERE  `id` = 1 [ RunTime:0.002326s ]
+---------------------------------------------------------------
+
+[2021-01-18T17:13:03+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/index.html
+[运行时间：0.016229s] [吞吐率：61.62req/s] [内存消耗：1,849.25kb] [文件加载：67]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'referer' => 'http://47.94.233.201/index.php/admin/Login/dologin',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T17:13:06+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login/index.html
+[运行时间：0.015884s] [吞吐率：62.96req/s] [内存消耗：1,837.37kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T17:13:06+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.012328s] [吞吐率：81.12req/s] [内存消耗：1,405.05kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T17:25:53+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login/index.html
+[运行时间：0.015573s] [吞吐率：64.21req/s] [内存消耗：1,837.49kb] [文件加载：66]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-01-18T17:25:53+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html
+[运行时间：0.012081s] [吞吐率：82.77req/s] [内存消耗：1,405.17kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-01-18T17:26:02+08:00] 115.27.209.113 GET 47.94.233.201/index.php/captcha.html?0.4307492675677994
+[运行时间：0.012161s] [吞吐率：82.23req/s] [内存消耗：1,405.87kb] [文件加载：53]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  '0_4307492675677994' => '',
+)
+---------------------------------------------------------------
+
+[2021-01-18T17:26:05+08:00] 115.27.209.113 POST 47.94.233.201/index.php/admin/Login/dologin
+[运行时间：0.025843s] [吞吐率：38.70req/s] [内存消耗：2,742.02kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://47.94.233.201',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'content-length' => '45',
+  'cookie' => 'token=cGlnMTE2MTA5NjAyOTc%3D; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'root',
+  'password' => '123456',
+  'verifyCode' => '5122',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/seckill-system/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000353s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `username` = 'root' LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] UPDATE `seckill_admin`  SET `token` = 'cGlnMTE2MTA5NjE5NjU=' , `expire_time` = 1610965565  WHERE  `id` = 1 [ RunTime:0.001547s ]
+---------------------------------------------------------------
+
+[2021-01-18T17:26:08+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/index.html
+[运行时间：0.016744s] [吞吐率：59.72req/s] [内存消耗：1,836.18kb] [文件加载：67]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'cookie' => 'token=cGlnMTE2MTA5NjE5NjU%3D; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'referer' => 'http://47.94.233.201/index.php/admin/Login/dologin',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Class 'app\admin\controller\Db' not found[/var/www/html/seckill-system/application/admin/controller/Common.php:19]
+---------------------------------------------------------------
+
+[2021-01-18T17:26:42+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/index.html
+[运行时间：0.022583s] [吞吐率：44.28req/s] [内存消耗：2,657.13kb] [文件加载：70]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'cookie' => 'token=cGlnMTE2MTA5NjE5NjU%3D; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'referer' => 'http://47.94.233.201/index.php/admin/Login/dologin',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/main/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `token` = 'cGlnMTE2MTA5NjE5NjU=' LIMIT 1 [ RunTime:0.000270s ]
+---------------------------------------------------------------
+
+[2021-01-18T17:26:42+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/welcome.html
+[运行时间：0.022826s] [吞吐率：43.81req/s] [内存消耗：2,646.59kb] [文件加载：70]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610962002; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; token=cGlnMTE2MTA5NjE5NjU%3D; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/main/welcome.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000340s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `token` = 'cGlnMTE2MTA5NjE5NjU=' LIMIT 1 [ RunTime:0.000253s ]
+---------------------------------------------------------------
+
+[2021-01-18T17:26:47+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/login/index.html
+[运行时间：0.023482s] [吞吐率：42.59req/s] [内存消耗：2,683.26kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610962002; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; token=cGlnMTE2MTA5NjE5NjU%3D; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/seckill-system/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000356s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `token` = 'cGlnMTE2MTA5NjE5NjU=' LIMIT 1 [ RunTime:0.000279s ]
+---------------------------------------------------------------
+
+[2021-01-18T17:26:50+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/index.html
+[运行时间：0.022993s] [吞吐率：43.49req/s] [内存消耗：2,657.12kb] [文件加载：70]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610962002; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; token=cGlnMTE2MTA5NjE5NjU%3D; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'referer' => 'http://47.94.233.201/index.php/admin/login/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/main/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000418s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `token` = 'cGlnMTE2MTA5NjE5NjU=' LIMIT 1 [ RunTime:0.000259s ]
+---------------------------------------------------------------
+
+[2021-01-18T17:26:50+08:00] 115.27.209.113 GET 47.94.233.201/index.php/admin/main/welcome.html
+[运行时间：0.022893s] [吞吐率：43.68req/s] [内存消耗：2,646.60kb] [文件加载：70]
+[ info ] [ LANG ] /var/www/html/seckill-system/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.233.201',
+  'cookie' => 'Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1610962010; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1610949364; token=cGlnMTE2MTA5NjE5NjU%3D; user_id=1; user_name=root; PHPSESSID=1dbb8018a0cb1d2f07a46ab9a59fdabb',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15',
+  'referer' => 'http://47.94.233.201/index.php/admin/main/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/seckill-system/application/admin/view/main/welcome.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000343s ] mysql:host=127.0.0.1;port=3306;dbname=seckill_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `seckill_admin` [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SELECT * FROM `seckill_admin` WHERE  `token` = 'cGlnMTE2MTA5NjE5NjU=' LIMIT 1 [ RunTime:0.000258s ]

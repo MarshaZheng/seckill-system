@@ -6,6 +6,7 @@ namespace app\admin\controller;
 use think\Controller;
 use think\Request;
 use think\Loader;
+use think\Db;
 
 class Common extends Controller {
 
@@ -13,9 +14,13 @@ class Common extends Controller {
     public function __construct() {
         parent::__construct();
     //     // $this->init();
-        if (!session('user_id')) {
-
-            $this->error('请登陆', url('/admin/Login/index'));
+        if (!isset($_COOKIE['token'])) {
+            $this->error('请登陆', 'Login/index');
+        }else{
+            $data = Db::table('seckill_admin')->where('token',$_COOKIE['token'])->find();
+            if(!$data||$data['expire_time']<time()){
+                $this->error('信息失效，请登录', 'Login/index');
+            }
         }
 
     //     $this->user_id = session('user_id');
