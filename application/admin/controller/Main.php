@@ -16,6 +16,24 @@ class Main extends Common{
     {
         return view();
     }
+    public function role_list()
+    {
+        $list = db("seckill_admin_group")->select();
+        $this->assign("list",$list);
+        return view();
+    }
+    public function admin_list()
+    {
+        $list = db("seckill_admin")->select();
+        $this->assign("list",$list);
+        return view();
+    }
+    public function rule_list()
+    {
+        $list = db("seckill_menu")->select();
+        $this->assign("list",$list);
+        return view();
+    }
     public function advert_place_list()
     {
         $list = db("seckill_advert_place")->select();
@@ -185,7 +203,7 @@ class Main extends Common{
         return;
     }
     
-    public function upload_img($file){   
+    private function upload_img($file){   
         $info = $file->move('static/upload/admin/');
         if($info){        // 成功上传后 获取上传信息        
             // 输出 jpg        

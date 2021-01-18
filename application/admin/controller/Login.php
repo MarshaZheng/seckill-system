@@ -13,15 +13,16 @@ class Login extends Controller {
      * 登入
      */
     public function index() {
-            if(isset($_COOKIE['token'])){
-                $data = Db::table('seckill_admin')->where('token',$_COOKIE['token'])->find();
-                if($data&&$data['expire_time']>time()){
-                    $this->success('尊敬的'.$data['username'].',您已登录!', 'main/index');
-                }
+        if(isset($_COOKIE['token'])){
+            $data = Db::table('seckill_admin')->where('token',$_COOKIE['token'])->find();
+            if($data&&$data['expire_time']>time()){
+                $this->success('尊敬的'.$data['username'].',您已登录!', 'main/index');
             }
-            return $this->fetch();
+        }
+        return $this->fetch();
         
     }
+
     public function verify()
     {
         $captcha = new Captcha();
@@ -32,24 +33,6 @@ class Login extends Controller {
      */
     public function dologin() {
         //验证密码流程
-        
-  
-        // $username = $_REQUEST['username'];
-        // $password = $_REQUEST['password'];
-        // $data=Db::table('admin')->where('username',$username)->find();
-        // if($data){
-        //     if($data['password']==md5($password)){
-        //         echo json_encode(1);
-        //         return;
-        //     }else{
-        //         echo json_encode(2);
-        //         return;
-        //     }
-        // }else{
-        //     echo json_encode(2);
-        // }
-        // echo json_encode(2);
-        // return;
         if(request()->isPost()){
             $data = input('post.');
             if(!captcha_check($data['verifyCode'])) {
@@ -62,12 +45,11 @@ class Login extends Controller {
         $password = $_REQUEST['password'];
         $data=Db::table('seckill_admin')->where('username',$username)->find();
         if($data['password']==md5($password)){
-            // session('user_name', $data['username']);
-            // session('user_id', $data['id']);
-            // cookie('user_name', $data['username']);
-            // cookie('user_id', $data['id']);
             //更新token
             $this->set_token($data['id']);
+            //更新数据库
+            $logindata = array('login_ip'=>request()->ip(),'login_time'=>time());
+            $result = Db::table('seckill_admin')->where('id', $data['id'])->setField($logindata);
             $this->success('登录成功', 'main/index');
           
 

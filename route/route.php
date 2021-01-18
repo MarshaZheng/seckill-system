@@ -16,5 +16,5 @@ Route::get('think', function () {
 Route::get('hello/:name', 'index/hello');
 
 return [
-    ':name'=>['index/hello',['name'=>'\w+']]
+    
 ];
