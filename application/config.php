@@ -1,5 +1,20 @@
 <?php
 return [
+    'captcha' => [
+        //验证码的字符集
+        'codeSet' => '123456789',
+        //设置验证码大小
+        'fontSize' => 13,
+        //添加混淆曲线
+        'useCurve' => false,
+        //设置图片的高度、宽度
+        'imageW' => 80,
+        'imageH' => 25,
+        //验证码位数
+        'length' =>4,
+        //验证成功后重置
+        'reset' =>true
+    ],
     'default_filter' => 'htmlspecialchars',
     'url_route_on' => true,
     'trace' => [

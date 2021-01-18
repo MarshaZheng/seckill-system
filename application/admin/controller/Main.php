@@ -16,6 +16,72 @@ class Main extends Common{
     {
         return view();
     }
+    public function advert_place_list()
+    {
+        $list = db("seckill_advert_place")->select();
+        $this->assign("list",$list);
+        return view();
+    }
+    public function add_advert_place()
+    {
+        return view();
+    }
+    public function do_add_advert_place()
+    {
+        $place =  $_REQUEST['place'];
+        $status = $_REQUEST['status'];
+        $data = array('place'=>$place, 'status'=>$status);
+        $result = db('seckill_advert_place')->insert($data);
+        if($result){
+            $this->success('添加成功');
+        }
+        else{
+            $this->error('添加失败');
+        }
+        return;
+    }
+    public function advert_list()
+    {
+        $list = db("seckill_advert")->select();
+        $this->assign("list",$list);
+        return view();
+    }
+    public function add_advert()
+    {
+        $list1 = db("seckill_advert_place")->select();
+        $this->assign("list1",$list1);
+        $list2 = db("seckill_item_brand")->select();
+        $this->assign("list2",$list2);
+        return view();
+    }
+    public function do_add_advert()
+    {
+        $brand =  $_REQUEST['brand'];
+        $place =  $_REQUEST['place'];
+        $desc =  $_REQUEST['desc'];
+        $image = $this->upload_img(request()->file('image'));
+        $status = $_REQUEST['status'];
+        $data = array('brand'=>$brand,'place'=>$place,'description'=>$desc, 'image'=>$image, 'status'=>$status);
+        $result = db('seckill_advert')->insert($data);
+        if($result){
+            $this->success('添加成功');
+        }
+        else{
+            $this->error('添加失败');
+        }
+        return;
+    }
+    public function del_advert()
+    {
+        $id = $_REQUEST['id'];
+        $res = db('seckill_advert')->where('id', $id)->delete();
+        if ($res) {
+            echo json_encode(1);
+        } else {
+            echo json_encode(0);
+        }
+        return;
+    }
     public function order_list()
     {
         $list = db("seckill_order")->select();
@@ -36,7 +102,6 @@ class Main extends Common{
     }
     public function add_item_type()
     {
-    
         return view();
     }
     public function do_add_item_type()

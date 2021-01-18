@@ -5,6 +5,7 @@ namespace app\admin\controller;
 use think\Controller;
 use think\Loader;
 use think\Db;
+use think\captcha\Captcha;
 
 class Login extends Controller {
 
@@ -16,7 +17,11 @@ class Login extends Controller {
             return $this->fetch();
         
     }
-    
+    public function verify()
+    {
+        $captcha = new Captcha();
+        return $captcha->entry();
+    }
     /**
      * 处理登录
      */
@@ -40,6 +45,14 @@ class Login extends Controller {
         // }
         // echo json_encode(2);
         // return;
+        if(request()->isPost()){
+            $data = input('post.');
+            if(!captcha_check($data['verifyCode'])) {
+                // 校验失败
+                $this->error('验证码不正确');
+            }
+        }
+
         $username = $_REQUEST['username'];
         $password = $_REQUEST['password'];
         $data=Db::table('seckill_admin')->where('username',$username)->find();
@@ -63,6 +76,7 @@ class Login extends Controller {
             // else{
             //     $this->success('登录成功', 'main2/index');
             // }
+            
             $this->success('登录成功', 'main/index');
             // //记录用户登陆时间和ip
             // $logindata = array('loginip'=>'123.1234.1234.123');

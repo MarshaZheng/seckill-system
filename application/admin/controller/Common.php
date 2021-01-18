@@ -10,13 +10,13 @@ use think\Loader;
 class Common extends Controller {
 
     // // $request=new Request();
-    // public function __construct() {
-    //     parent::__construct();
+    public function __construct() {
+        parent::__construct();
     //     // $this->init();
-    //     if (!session('user_id')) {
+        if (!session('user_id')) {
 
-    //         $this->error('请登陆', url('/admin/Login/index'));
-    //     }
+            $this->error('请登陆', url('/admin/Login/index'));
+        }
 
     //     $this->user_id = session('user_id');
     //     $this->user_name = session('user_name');
@@ -28,7 +28,7 @@ class Common extends Controller {
 
     //     // //记录日志
     //     $this->_addLog();
-    // }
+    }
 
     // /**
     //  * 权限检查

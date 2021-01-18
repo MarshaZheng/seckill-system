@@ -1,4 +1,4 @@
-<?php /*a:1:{s:68:"/var/www/html/seckill-system/application/admin/view/login/index.html";i:1610520215;}*/ ?>
+<?php /*a:1:{s:68:"/var/www/html/seckill-system/application/admin/view/login/index.html";i:1610949346;}*/ ?>
 <!doctype html>
 <html  class="x-admin-sm">
 <head>
@@ -25,9 +25,14 @@
         <div id="darkbannerwrap"></div>
         
         <form id="form1" name="form1" method="post" class="layui-form" action="/index.php/admin/Login/dologin">
+            
             <input name="username" placeholder="用户名"  type="text" lay-verify="required|name" class="layui-input" >
             <hr class="hr15">
             <input name="password" lay-verify="required|password" placeholder="密码"  type="password" class="layui-input">
+            <hr class="hr15">
+            <div class="layui-input-inline">
+            <input name="verifyCode" lay-verify="required" placeholder="请输入验证码"  type="text" class="layui-input"></div>
+            <div class="layui-input-inline"><img src="<?php echo captcha_src(); ?>" height=50px width=160px class="verifyimg reloadverify"></div>
             <hr class="hr15">
             <button class="layui-btn layui-btn-lg" lay-submit lay-filter="login" style="width:100%;" type="submit">登录</button>
 
@@ -85,6 +90,21 @@
 
 
   </script>
+  <script  src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
+  
+  <script>
+    $(function(){
+            // 刷新验证码
+            var verifyimg = $(".verifyimg").attr("src");
+            $(".reloadverify").click(function(){
+                if( verifyimg.indexOf('?')>0){
+                    $(".verifyimg").attr("src", verifyimg+'&random='+Math.random());
+                }else{
+                    $(".verifyimg").attr("src", verifyimg.replace(/\?.*$/,'')+'?'+Math.random());
+                }
+            });
+        })
+</script>
     <!-- 底部结束 -->
 </body>
 </html>

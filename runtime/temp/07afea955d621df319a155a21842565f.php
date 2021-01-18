@@ -1,4 +1,4 @@
-<?php /*a:4:{s:67:"/var/www/html/seckill-system/application/admin/view/main/index.html";i:1610524499;s:68:"/var/www/html/seckill-system/application/admin/view/public/head.html";i:1609921784;s:67:"/var/www/html/seckill-system/application/admin/view/public/top.html";i:1609921843;s:68:"/var/www/html/seckill-system/application/admin/view/public/menu.html";i:1610554792;}*/ ?>
+<?php /*a:4:{s:67:"/var/www/html/seckill-system/application/admin/view/main/index.html";i:1610524499;s:68:"/var/www/html/seckill-system/application/admin/view/public/head.html";i:1609921784;s:67:"/var/www/html/seckill-system/application/admin/view/public/top.html";i:1609921843;s:68:"/var/www/html/seckill-system/application/admin/view/public/menu.html";i:1610595492;}*/ ?>
 <!doctype html>
 <html class="x-admin-sm">
     <head>
@@ -109,9 +109,14 @@
                             <cite>秒杀活动列表</cite></a>
                     </li>
                     <li>
-                        <a onclick="xadmin.add_tab('广告列表','advertisement.html')">
+                        <a onclick="xadmin.add_tab('广告列表','advert_list.html')">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>广告列表</cite></a>
+                    </li>
+                    <li>
+                        <a onclick="xadmin.add_tab('广告列表','advert_place_list.html')">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>广告位置管理</cite></a>
                     </li>
                 </ul>
             </li>

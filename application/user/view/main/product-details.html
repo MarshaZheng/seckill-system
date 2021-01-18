@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="meta description">
-    <title>Home</title>
+    <title></title>
 
     <!--=== Favicon ===-->
-    <link rel="shortcut icon" href="/static/assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
 
     <!-- Google fonts include -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,900%7CYesteryear" rel="stylesheet">
 
     <!-- All Vendor & plugins CSS include -->
-    <link href="/static/assets/css/vendor.css" rel="stylesheet">
+    <link href="assets/css/vendor.css" rel="stylesheet">
     <!-- Main Style CSS -->
-    <link href="/static/assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
 <script src="/oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -33,7 +33,41 @@
         <!-- main header start -->
         <div class="main-header d-none d-lg-block">
             <!-- header top start -->
-            
+            <div class="header-top bdr-bottom">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="welcome-message">
+                                <p>Welcome to Floda online store</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 text-right">
+                            <div class="header-top-settings">
+                                <ul class="nav align-items-center justify-content-end">
+                                    <li class="language">
+                                        <span>Language:</span>
+                                        <img src="assets/img/icon/en.png" alt="flag"> English
+                                        <i class="fa fa-angle-down"></i>
+                                        <ul class="dropdown-list">
+                                            <li><a href="#"><img src="assets/img/icon/en.png" alt="flag"> english</a></li>
+                                            <li><a href="#"><img src="assets/img/icon/fr.png" alt="flag"> french</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="curreny-wrap">
+                                        <span>Currency:</span>
+                                        $ USD
+                                        <i class="fa fa-angle-down"></i>
+                                        <ul class="dropdown-list curreny-list">
+                                            <li><a href="#">$ usd</a></li>
+                                            <li><a href="#"> € EURO</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- header top end -->
 
             <!-- header middle area start -->
@@ -45,7 +79,7 @@
                         <div class="col-lg-3">
                             <div class="logo">
                                 <a href="index.html">
-                                    <img src="/static/assets/img/logo/logo.png" alt="">
+                                    <img src="assets/img/logo/logo.png" alt="">
                                 </a>
                             </div>
                         </div>
@@ -123,7 +157,7 @@
                         <div class="mobile-main-header">
                             <div class="mobile-logo">
                                 <a href="index.html">
-                                    <img src="/static/assets/img/logo/logo.png" alt="Brand Logo">
+                                    <img src="assets/img/logo/logo.png" alt="Brand Logo">
                                 </a>
                             </div>
                             <div class="mobile-menu-toggler">
@@ -185,13 +219,25 @@
                     <ul class="nav">
                         <li>
                             <div class="dropdown mobile-top-dropdown">
+                                <a href="#" class="dropdown-toggle" id="currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Currency
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="currency">
+                                    <a class="dropdown-item" href="#">$ USD</a>
+                                    <a class="dropdown-item" href="#">$ EURO</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown mobile-top-dropdown">
                                 <a href="#" class="dropdown-toggle" id="myaccount" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     My Account
                                     <i class="fa fa-angle-down"></i>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="myaccount">
                                     <a class="dropdown-item" href="#">my account</a>
-                                    <a class="dropdown-item" href="#">login</a>
+                                    <a class="dropdown-item" href="#"> login</a>
                                     <a class="dropdown-item" href="#">register</a>
                                 </div>
                             </div>
@@ -229,216 +275,288 @@
 
     <!-- main wrapper start -->
     <main>
-        <!-- slider area start -->
-        <section class="slider-area">
-            <div class="hero-slider-active slick-arrow-style slick-arrow-style_hero slick-dot-style">
-                <!-- single slider item start -->
-                {volist name="list" id="vo"}
+        <!-- breadcrumb area start -->
+        <div class="breadcrumb-area common-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="breadcrumb-wrap">
+                            <nav aria-label="breadcrumb">
+                                <h1>product details</h1>
+                                <ul class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="index.html"><i class="fa fa-home"></i></a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">product details</li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- breadcrumb area end -->
 
-                <tbody>
-                  <tr>
-                
-                <div class="hero-single-slide ">
-                    <div class="hero-slider-item bg-img" data-bg="/static/upload/admin/{$vo.image}">
-                        <div class="container">
+        <!-- page main wrapper start -->
+        <div class="shop-main-wrapper section-space">
+            <div class="container">
+                <div class="row">
+                    <!-- product details wrapper start -->
+                    <div class="col-lg-12 order-1 order-lg-2">
+                        <!-- product details inner end -->
+                        <div class="product-details-inner">
                             <div class="row">
-                                <div class="col-md-12">
-                                    <div class="hero-slider-content slide-1">
-                                        <span>{$vo.brand}</span>
-                                        <h1>{$vo.description}</h1>
-                                        <a href="shop.html" class="btn-hero">shop now</a>
+                                <div class="col-lg-5">
+                                    <div class="product-large-slider">
+                                        <div class="pro-large-img img-zoom">
+                                            <img src="assets/img/product/product-details-img1.jpg" alt="product-details" />
+                                        </div>
+                                        <div class="pro-large-img img-zoom">
+                                            <img src="assets/img/product/product-details-img2.jpg" alt="product-details" />
+                                        </div>
+                                        <div class="pro-large-img img-zoom">
+                                            <img src="assets/img/product/product-details-img3.jpg" alt="product-details" />
+                                        </div>
+                                        <div class="pro-large-img img-zoom">
+                                            <img src="assets/img/product/product-details-img4.jpg" alt="product-details" />
+                                        </div>
+                                        <div class="pro-large-img img-zoom">
+                                            <img src="assets/img/product/product-details-img5.jpg" alt="product-details" />
+                                        </div>
+                                    </div>
+                                    <div class="pro-nav slick-row-10 slick-arrow-style">
+                                        <div class="pro-nav-thumb">
+                                            <img src="assets/img/product/product-details-img1.jpg" alt="product-details" />
+                                        </div>
+                                        <div class="pro-nav-thumb">
+                                            <img src="assets/img/product/product-details-img2.jpg" alt="product-details" />
+                                        </div>
+                                        <div class="pro-nav-thumb">
+                                            <img src="assets/img/product/product-details-img3.jpg" alt="product-details" />
+                                        </div>
+                                        <div class="pro-nav-thumb">
+                                            <img src="assets/img/product/product-details-img4.jpg" alt="product-details" />
+                                        </div>
+                                        <div class="pro-nav-thumb">
+                                            <img src="assets/img/product/product-details-img5.jpg" alt="product-details" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="product-details-des">
+                                        <h3 class="product-name">Flowers daisy pink stick</h3>
+                                        <div class="ratings d-flex">
+                                            <span><i class="lnr lnr-star"></i></span>
+                                            <span><i class="lnr lnr-star"></i></span>
+                                            <span><i class="lnr lnr-star"></i></span>
+                                            <span><i class="lnr lnr-star"></i></span>
+                                            <span><i class="lnr lnr-star"></i></span>
+                                            <div class="pro-review">
+                                                <span>1 Reviews</span>
+                                            </div>
+                                        </div>
+                                        <div class="price-box">
+                                            <span class="price-regular">$70.00</span>
+                                            <span class="price-old"><del>$90.00</del></span>
+                                        </div>
+                                        <h5 class="offer-text"><strong>Hurry up</strong>! offer ends in:</h5>
+                                        <div class="product-countdown" data-countdown="2019/07/25"></div>
+                                        <div class="availability">
+                                            <i class="fa fa-check-circle"></i>
+                                            <span>200 in stock</span>
+                                        </div>
+                                        <p class="pro-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                                            eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                                            voluptua. Phasellus id nisi quis justo tempus mollis sed et dui. In hac
+                                            habitasse platea dictumst.</p>
+                                        <div class="quantity-cart-box d-flex align-items-center">
+                                            <h5>qty:</h5>
+                                            <div class="quantity">
+                                                <div class="pro-qty"><input type="text" value="1"></div>
+                                            </div>
+                                            <div class="action_link">
+                                                <a class="btn btn-cart2" href="#">Add to cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-size">
+                                            <h5>size :</h5>
+                                            <select class="nice-select">
+                                                <option>S</option>
+                                                <option>M</option>
+                                                <option>L</option>
+                                                <option>XL</option>
+                                            </select>
+                                        </div>
+                                        <div class="color-option">
+                                            <h5>color :</h5>
+                                            <ul class="color-categories">
+                                                <li>
+                                                    <a class="c-lightblue" href="#" title="LightSteelblue"></a>
+                                                </li>
+                                                <li>
+                                                    <a class="c-darktan" href="#" title="Darktan"></a>
+                                                </li>
+                                                <li>
+                                                    <a class="c-grey" href="#" title="Grey"></a>
+                                                </li>
+                                                <li>
+                                                    <a class="c-brown" href="#" title="Brown"></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="useful-links">
+                                            <a href="#" data-toggle="tooltip" title="Compare"><i
+                                                    class="lnr lnr-sync"></i>compare</a>
+                                            <a href="#" data-toggle="tooltip" title="Wishlist"><i
+                                                    class="lnr lnr-heart"></i>wishlist</a>
+                                        </div>
+                                        <div class="like-icon">
+                                            <a class="facebook" href="#"><i class="fa fa-facebook"></i>like</a>
+                                            <a class="twitter" href="#"><i class="fa fa-twitter"></i>tweet</a>
+                                            <a class="pinterest" href="#"><i class="fa fa-pinterest"></i>save</a>
+                                            <a class="google" href="#"><i class="fa fa-google-plus"></i>share</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div></tr>
-            </tbody>{/volist}
-                <!-- single slider item end -->
-                <!-- single slider item start -->
-            </div>
-        </section>
-        <!-- slider area end -->
+                        <!-- product details inner end -->
 
-        <!-- banner statistics start -->
-        <section class="banner-statistics section-space">
- 
-        </section>
-        <!-- banner statistics end -->
-
-        <!-- service policy start -->
-        <section class="service-policy-area section-space p-0">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <!-- start policy single item -->
-                        <div class="service-policy-item">
-                            <div class="icons">
-                                <img src="/static/assets/img/icon/free_shipping.png" alt="">
-                            </div>
-                            <div class="policy-terms">
-                                <h5>free shipping</h5>
-                                <p>Free shipping all order</p>
+                        <!-- product details reviews start -->
+                        <div class="product-details-reviews section-space pb-0">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="product-review-info">
+                                        <ul class="nav review-tab">
+                                            <li>
+                                                <a class="active" data-toggle="tab" href="#tab_one">description</a>
+                                            </li>
+                                            <li>
+                                                <a data-toggle="tab" href="#tab_two">information</a>
+                                            </li>
+                                            <li>
+                                                <a data-toggle="tab" href="#tab_three">reviews (1)</a>
+                                            </li>
+                                        </ul>
+                                        <div class="tab-content reviews-tab">
+                                            <div class="tab-pane fade show active" id="tab_one">
+                                                <div class="tab-one">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                                                        fringilla augue nec est tristique auctor. Ipsum metus feugiat
+                                                        sem, quis fermentum turpis eros eget velit. Donec ac tempus
+                                                        ante. Fusce ultricies massa massa. Fusce aliquam, purus eget
+                                                        sagittis vulputate, sapien libero hendrerit est, sed commodo
+                                                        augue nisi non neque.Cras neque metus, consequat et blandit et,
+                                                        luctus a nunc. Etiam gravida vehicula tellus, in imperdiet
+                                                        ligula euismod eget. Pellentesque habitant morbi tristique
+                                                        senectus et netus et malesuada fames ac turpis egestas. Nam
+                                                        erat mi, rutrum at sollicitudin rhoncus</p>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="tab_two">
+                                                <table class="table table-bordered">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>color</td>
+                                                            <td>black, blue, red</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>size</td>
+                                                            <td>L, M, S</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="tab-pane fade" id="tab_three">
+                                                <form action="#" class="review-form">
+                                                    <h5>1 review for <span>Chaz Kangeroo</span></h5>
+                                                    <div class="total-reviews">
+                                                        <div class="rev-avatar">
+                                                            <img src="assets/img/about/avatar.jpg" alt="">
+                                                        </div>
+                                                        <div class="review-box">
+                                                            <div class="ratings">
+                                                                <span class="good"><i class="fa fa-star"></i></span>
+                                                                <span class="good"><i class="fa fa-star"></i></span>
+                                                                <span class="good"><i class="fa fa-star"></i></span>
+                                                                <span class="good"><i class="fa fa-star"></i></span>
+                                                                <span><i class="fa fa-star"></i></span>
+                                                            </div>
+                                                            <div class="post-author">
+                                                                <p><span>admin -</span> 30 Mar, 2019</p>
+                                                            </div>
+                                                            <p>Aliquam fringilla euismod risus ac bibendum. Sed sit
+                                                                amet sem varius ante feugiat lacinia. Nunc ipsum nulla,
+                                                                vulputate ut venenatis vitae, malesuada ut mi. Quisque
+                                                                iaculis, dui congue placerat pretium, augue erat
+                                                                accumsan lacus</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <div class="col">
+                                                            <label class="col-form-label"><span class="text-danger">*</span>
+                                                                Your Name</label>
+                                                            <input type="text" class="form-control" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <div class="col">
+                                                            <label class="col-form-label"><span class="text-danger">*</span>
+                                                                Your Email</label>
+                                                            <input type="email" class="form-control" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <div class="col">
+                                                            <label class="col-form-label"><span class="text-danger">*</span>
+                                                                Your Review</label>
+                                                            <textarea class="form-control" required></textarea>
+                                                            <div class="help-block pt-10"><span
+                                                                    class="text-danger">Note:</span>
+                                                                HTML is not translated!
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <div class="col">
+                                                            <label class="col-form-label"><span class="text-danger">*</span>
+                                                                Rating</label>
+                                                            &nbsp;&nbsp;&nbsp; Bad&nbsp;
+                                                            <input type="radio" value="1" name="rating">
+                                                            &nbsp;
+                                                            <input type="radio" value="2" name="rating">
+                                                            &nbsp;
+                                                            <input type="radio" value="3" name="rating">
+                                                            &nbsp;
+                                                            <input type="radio" value="4" name="rating">
+                                                            &nbsp;
+                                                            <input type="radio" value="5" name="rating" checked>
+                                                            &nbsp;Good
+                                                        </div>
+                                                    </div>
+                                                    <div class="buttons">
+                                                        <button class="sqr-btn" type="submit">Continue</button>
+                                                    </div>
+                                                </form> <!-- end of review-form -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <!-- end policy single item -->
+                        <!-- product details reviews end -->
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <!-- start policy single item -->
-                        <div class="service-policy-item">
-                            <div class="icons">
-                                <img src="/static/assets/img/icon/support247.png" alt="">
-                            </div>
-                            <div class="policy-terms">
-                                <h5>SUPPORT 24/7</h5>
-                                <p>Support 24 hours a day</p>
-                            </div>
-                        </div>
-                        <!-- end policy single item -->
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <!-- start policy single item -->
-                        <div class="service-policy-item">
-                            <div class="icons">
-                                <img src="/static/assets/img/icon/money_back.png" alt="">
-                            </div>
-                            <div class="policy-terms">
-                                <h5>Money Return</h5>
-                                <p>30 days for free return</p>
-                            </div>
-                        </div>
-                        <!-- end policy single item -->
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <!-- start policy single item -->
-                        <div class="service-policy-item">
-                            <div class="icons">
-                                <img src="/static/assets/img/icon/promotions.png" alt="">
-                            </div>
-                            <div class="policy-terms">
-                                <h5>ORDER DISCOUNT</h5>
-                                <p>On every order over $15</p>
-                            </div>
-                        </div>
-                        <!-- end policy single item -->
-                    </div>
+                    <!-- product details wrapper end -->
                 </div>
             </div>
-        </section>
-        <!-- service policy end -->
+        </div>
+        <!-- page main wrapper end -->
 
-        <!-- our product area start -->
-        <section class="our-product section-space">
+        <!-- related product area start -->
+        <section class="related-products">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title text-center">
-                            <h2>New Products</h2>
-                            <p>Accumsan vitae pede lacus ut ullamcorper sollicitudin quisque libero</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mtn-40">
-                    <!-- product single item start -->
-                    {volist name="list2" id="vo2"}
-
-                <tbody><tr>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="product-item mt-40">
-                            <figure class="product-thumb">
-                                <a href="product-details.html">
-                                    <img class="pri-img" src="/static/upload/admin/{$vo2.image}" alt="product" style="width: 300px;
-                                    height:300px;margin-right: 10px;">
-                                    <img class="sec-img" src="/static/upload/admin/{$vo2.image}" alt="product" style="width: 300px;
-                                    height:300px;margin-right: 10px;">
-                                </a>
-                                <div class="product-badge">
-                                    <div class="product-label new">
-                                        <span>new</span>
-                                    </div>
-                                    <div class="product-label discount">
-                                        <span>10%</span>
-                                    </div>
-                                </div>
-                                <div class="button-group">
-                                    <a href="#" data-toggle="tooltip" data-placement="left" title="Add to wishlist"><i class="lnr lnr-heart"></i></a>
-                                    <a href="#" data-toggle="modal" data-target="#quick_view"><span data-toggle="tooltip" data-placement="left" title="Quick View"><i class="lnr lnr-magnifier"></i></span></a>
-                                    <a href="#" data-toggle="tooltip" data-placement="left" title="Add to Cart"><i class="lnr lnr-cart"></i></a>
-                                </div>
-                            </figure>
-                            <div class="product-caption">
-                                <p class="product-name">
-                                    <a href="product-details.html">{$vo2.brand}{$vo2.name}</a>
-                                </p>
-                                <div class="price-box">
-                                    <span class="price-regular">¥{$vo2.price}</span>
-                                    <span class="price-old"><del>¥{$vo2.price*1.1}</del></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div></tr></tbody>{/volist}
-                    <!-- product single item end -->
-
-            
-                    <div class="col-12">
-                        <div class="view-more-btn">
-                            <a class="btn-hero btn-load-more" href="shop.html">view more products</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- our product area end -->
-
-        <!-- banner statistics start -->
-        <section class="banner-statistics-right">
-            <div class="container">
-                <div class="row">
-                    <!-- start banner item start -->
-                    <div class="col-md-6">
-                        <div class="banner-item banner-border">
-                            <figure class="banner-thumb">
-                                <a href="#">
-                                    <img src="/static/assets/img/banner/banner-1.jpg" alt="">
-                                </a>
-                                <figcaption class="banner-content banner-content-right">
-                                    <h2 class="text1">for you</h2>
-                                    <h2 class="text2">Tulip Flower</h2>
-                                    <a class="store-link" href="#">shop now</a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                    <!-- start banner item end -->
-
-                    <!-- start banner item start -->
-                    <div class="col-md-6">
-                        <div class="banner-item banner-border">
-                            <figure class="banner-thumb">
-                                <a href="#">
-                                    <img src="/static/assets/img/banner/banner-2.jpg" alt="">
-                                </a>
-                                <figcaption class="banner-content banner-content-right">
-                                    <h2 class="text1">for you</h2>
-                                    <h2 class="text2">Flower & Box</h2>
-                                    <a class="store-link" href="#">shop now</a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                    <!-- start banner item end -->
-                </div>
-            </div>
-        </section>
-        <!-- banner statistics end -->
-
-        <!-- trending product area start -->
-        <section class="top-sellers section-space">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-title text-center">
-                            <h2>top seller</h2>
+                            <h2>Related Products</h2>
                             <p>Accumsan vitae pede lacus ut ullamcorper sollicitudin quisque libero</p>
                         </div>
                     </div>
@@ -450,8 +568,8 @@
                             <div class="product-item">
                                 <figure class="product-thumb">
                                     <a href="product-details.html">
-                                        <img class="pri-img" src="/static/assets/img/product/product-9.jpg" alt="product">
-                                        <img class="sec-img" src="/static/assets/img/product/product-6.jpg" alt="product">
+                                        <img class="pri-img" src="assets/img/product/product-5.jpg" alt="product">
+                                        <img class="sec-img" src="assets/img/product/product-6.jpg" alt="product">
                                     </a>
                                     <div class="product-badge">
                                         <div class="product-label new">
@@ -480,8 +598,8 @@
                             <div class="product-item">
                                 <figure class="product-thumb">
                                     <a href="product-details.html">
-                                        <img class="pri-img" src="/static/assets/img/product/product-10.jpg" alt="product">
-                                        <img class="sec-img" src="/static/assets/img/product/product-1.jpg" alt="product">
+                                        <img class="pri-img" src="assets/img/product/product-2.jpg" alt="product">
+                                        <img class="sec-img" src="assets/img/product/product-1.jpg" alt="product">
                                     </a>
                                     <div class="product-badge">
                                         <div class="product-label new">
@@ -513,8 +631,8 @@
                             <div class="product-item">
                                 <figure class="product-thumb">
                                     <a href="product-details.html">
-                                        <img class="pri-img" src="/static/assets/img/product/product-11.jpg" alt="product">
-                                        <img class="sec-img" src="/static/assets/img/product/product-8.jpg" alt="product">
+                                        <img class="pri-img" src="assets/img/product/product-7.jpg" alt="product">
+                                        <img class="sec-img" src="assets/img/product/product-8.jpg" alt="product">
                                     </a>
                                     <div class="product-badge">
                                         <div class="product-label new">
@@ -546,8 +664,8 @@
                             <div class="product-item">
                                 <figure class="product-thumb">
                                     <a href="product-details.html">
-                                        <img class="pri-img" src="/static/assets/img/product/product-12.jpg" alt="product">
-                                        <img class="sec-img" src="/static/assets/img/product/product-2.jpg" alt="product">
+                                        <img class="pri-img" src="assets/img/product/product-1.jpg" alt="product">
+                                        <img class="sec-img" src="assets/img/product/product-2.jpg" alt="product">
                                     </a>
                                     <div class="product-badge">
                                         <div class="product-label new">
@@ -579,8 +697,8 @@
                             <div class="product-item">
                                 <figure class="product-thumb">
                                     <a href="product-details.html">
-                                        <img class="pri-img" src="/static/assets/img/product/product-4.jpg" alt="product">
-                                        <img class="sec-img" src="/static/assets/img/product/product-3.jpg" alt="product">
+                                        <img class="pri-img" src="assets/img/product/product-4.jpg" alt="product">
+                                        <img class="sec-img" src="assets/img/product/product-3.jpg" alt="product">
                                     </a>
                                     <div class="product-badge">
                                         <div class="product-label discount">
@@ -642,21 +760,124 @@
                 </div>
             </div>
         </section>
-        <!-- trending product area end -->
-
-        <!-- Instagram Feed Area Start -->
-        <div class="instagram-feed-area">
-            <div class="instagram-feed-thumb">
-                <div id="instafeed" class="instagram-carousel" data-userid="6666969077" data-accesstoken="6666969077.1677ed0.d325f406d94c4dfab939137c5c2cc6c2">
-                </div>
-            </div>
-        </div>
-        <!-- Instagram Feed Area End -->
-
+        <!-- related product area end -->
     </main>
     <!-- main wrapper end -->
 
     <!-- Start Footer Area Wrapper -->
+    <footer class="footer-wrapper">
+
+        <!-- footer widget area start -->
+        <div class="footer-widget-area">
+            <div class="container">
+                <div class="footer-widget-inner section-space">
+                    <div class="row mbn-30">
+                        <!-- footer widget item start -->
+                        <div class="col-lg-5 col-md-6 col-sm-8">
+                            <div class="footer-widget-item mb-30">
+                                <div class="footer-widget-title">
+                                    <h5>My account</h5>
+                                </div>
+                                <ul class="footer-widget-body accout-widget">
+                                    <li class="address">
+                                        <em><i class="lnr lnr-map-marker"></i></em>
+                                        184 Main Rd E, St Albans VIC 3021, Australia
+                                    </li>
+                                    <li class="email">
+                                        <em><i class="lnr lnr-envelope"></i>Mail us: </em>
+                                        <a href="mailto:test@yourdomain.com">yourmail@gmail.com</a>
+                                    </li>
+                                    <li class="phone">
+                                        <em><i class="lnr lnr-phone-handset"></i> Phones: </em>
+                                        <a href="tel:(012)800456789-987">(012) 800 456 789-987</a>
+                                    </li>
+                                </ul>
+                                <div class="payment-method">
+                                    <img src="assets/img/payment-pic.png" alt="payment method">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- footer widget item end -->
+
+                        <!-- footer widget item start -->
+                        <div class="col-lg-2 col-md-6 col-sm-4">
+                            <div class="footer-widget-item mb-30">
+                                <div class="footer-widget-title">
+                                    <h5>categories</h5>
+                                </div>
+                                <ul class="footer-widget-body">
+                                    <li><a href="#">Ecommerce</a></li>
+                                    <li><a href="#">shopify</a></li>
+                                    <li><a href="#">Prestashop</a></li>
+                                    <li><a href="#">Opencart</a></li>
+                                    <li><a href="#">Magento</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- footer widget item end -->
+
+                        <!-- footer widget item start -->
+                        <div class="col-lg-2 col-md-6 col-sm-6">
+                            <div class="footer-widget-item mb-30">
+                                <div class="footer-widget-title">
+                                    <h5>information</h5>
+                                </div>
+                                <ul class="footer-widget-body">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Exchanges</a></li>
+                                    <li><a href="#">Shipping</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- footer widget item end -->
+
+                        <!-- footer widget item start -->
+                        <div class="col-lg-2 offset-lg-1 col-md-6 col-sm-6">
+                            <div class="footer-widget-item mb-30">
+                                <div class="footer-widget-title">
+                                    <h5>Quick Links</h5>
+                                </div>
+                                <ul class="footer-widget-body">
+                                    <li><a href="#">Store Location</a></li>
+                                    <li><a href="#">My Account</a></li>
+                                    <li><a href="#">Orders Tracking</a></li>
+                                    <li><a href="#">Size Guide</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- footer widget item end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer widget area end -->
+
+        <!-- footer bottom area start -->
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 order-2 order-md-1">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2019.Company name All rights reserved.<a target="_blank" href="https://www.mycodes.net/">网站模板</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-1 order-md-2">
+                        <div class="footer-social-link">
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer bottom area end -->
+
+    </footer>
     <!-- End Footer Area Wrapper -->
 
     <!-- Quick view modal start -->
@@ -673,27 +894,27 @@
                             <div class="col-lg-5 col-md-5">
                                 <div class="product-large-slider">
                                     <div class="pro-large-img">
-                                        <img src="/static/assets/img/product/product-details-img1.jpg" alt="product-details" />
+                                        <img src="assets/img/product/product-details-img1.jpg" alt="product-details" />
                                     </div>
                                     <div class="pro-large-img">
-                                        <img src="/static/assets/img/product/product-details-img2.jpg" alt="product-details" />
+                                        <img src="assets/img/product/product-details-img2.jpg" alt="product-details" />
                                     </div>
                                     <div class="pro-large-img">
                                         <img src="assets/img/product/product-details-img3.jpg" alt="product-details" />
                                     </div>
                                     <div class="pro-large-img">
-                                        <img src="/static/assets/img/product/product-details-img4.jpg" alt="product-details" />
+                                        <img src="assets/img/product/product-details-img4.jpg" alt="product-details" />
                                     </div>
                                 </div>
                                 <div class="pro-nav slick-row-10 slick-arrow-style">
                                     <div class="pro-nav-thumb">
-                                        <img src="/static/assets/img/product/product-details-img1.jpg" alt="product-details" />
+                                        <img src="assets/img/product/product-details-img1.jpg" alt="product-details" />
                                     </div>
                                     <div class="pro-nav-thumb">
-                                        <img src="/static/assets/img/product/product-details-img2.jpg" alt="product-details" />
+                                        <img src="assets/img/product/product-details-img2.jpg" alt="product-details" />
                                     </div>
                                     <div class="pro-nav-thumb">
-                                        <img src="/static/assets/img/product/product-details-img3.jpg" alt="product-details" />
+                                        <img src="assets/img/product/product-details-img3.jpg" alt="product-details" />
                                     </div>
                                     <div class="pro-nav-thumb">
                                         <img src="assets/img/product/product-details-img4.jpg" alt="product-details" />
@@ -805,7 +1026,7 @@
                             <li class="minicart-item">
                                 <div class="minicart-thumb">
                                     <a href="product-details.html">
-                                        <img src="/static/assets/img/cart/cart-2.jpg" alt="product">
+                                        <img src="assets/img/cart/cart-2.jpg" alt="product">
                                     </a>
                                 </div>
                                 <div class="minicart-content">
@@ -861,9 +1082,9 @@
 
     <!-- All vendor & plugins & active js include here -->
     <!--All Vendor Js -->
-    <script src="/static/assets/js/vendor.js"></script>
+    <script src="assets/js/vendor.js"></script>
     <!-- Active Js -->
-    <script src="/static/assets/js/active.js"></script>
+    <script src="assets/js/active.js"></script>
 </body>
 
 </html>

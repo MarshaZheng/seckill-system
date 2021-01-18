@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="x-admin-sm">
+    
+    <head>
+        {include file="public/head" /}
+    </head>
+    <body>
+        <div class="layui-fluid">
+            <div class="layui-row">
+                <form class="layui-form" action="/index.php/admin/Main/do_add_advert_place" method="post">
+                  <div class="layui-form-item">
+                      <label for="username" class="layui-form-label">
+                          <span class="x-red">*</span>广告位置
+                      </label>
+                      <div class="layui-input-inline">
+                          <input type="text" id="place" name="place" required="" lay-verify="required"
+                          autocomplete="off" class="layui-input">
+                      </div>
+                  </div>
+                  <div class="layui-form-item">
+                    <label class="layui-form-label">是否可用</label>
+                    <div class="layui-input-block">
+                      <input type="radio" name="status" value="1" title="是" checked>
+                      <input type="radio" name="status" value="0" title="否" >
+                    </div>
+                  </div>
+                  <div class="layui-form-item">
+                      <label for="L_repass" class="layui-form-label">
+                      </label>
+                      <button  class="layui-btn" lay-filter="add" lay-submit="" type="submit">
+                          增加
+                      </button>
+                  </div>
+                  <script>
+
+                        layui.use('form', function(){
+                            var form = layui.form;
+                          });
+                  </script>
+              </form>
+            </div>
+        </div>
+
+    </body>
+
+</html>
