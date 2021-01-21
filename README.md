@@ -60,93 +60,94 @@
 ## 后台管理系统
 ### 登录
 效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/0.png" width="700px"\>
+
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/0.png" width="700px">
 
 ### 数据统计
 效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/1.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/1.png" width="700px">
 ### 商品列表
 效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/2.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/2.png" width="700px">
 ### 添加商品
 效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/3.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/3.png" width="700px">
 ### 商品分类
 效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/4.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/4.png" width="700px">
 ### 品牌列表
 效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/5.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/5.png" width="700px">
 ### 添加品牌
 效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/6.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/6.png" width="700px">
 ### 订单列表
 效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/7.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/7.png" width="700px">
 ### 秒杀管理
 效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/8.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/8.png" width="700px">
 ### 添加秒杀活动
 效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/9.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/9.png" width="700px">
 ### 广告列表
  效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/10.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/10.png" width="700px">
 ### 添加广告
  效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/11.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/11.png" width="700px">
 ### 管理员列表
  效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/12.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/12.png" width="700px">
 ### 添加管理员
  效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/13.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/13.png" width="700px">
 ### 角色列表
  效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/14.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/14.png" width="700px">
 ### 添加角色
  效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/15.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/15.png" width="700px">
 ### 规则列表
  效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/16.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/16.png" width="700px">
 ### 添加规则
  效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/17.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/17.png" width="700px">
 ### 日志列表
  效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/18.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/18.png" width="700px">
 
 
 ## 客户端
 ### 登录
  效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/19.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/19.png" width="700px">
 ### 注册
  效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/19.5.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/19.5.png" width="700px">
 ### 首页：广告
  效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/20.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/20.png" width="700px">
 ### 首页：新品推荐
  效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/21.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/21.png" width="700px">
 ### 首页：秒杀商品
  效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/22.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/22.png" width="700px">
 ### 商城
  效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/23.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/23.png" width="700px">
 ### 普通商品详情
  效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/24.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/24.png" width="700px">
 ### 秒杀商品详情
  效果图
 （到时间按钮才可以点）
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/25.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/25.png" width="700px">
 ### 我的订单
  效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/26.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/26.png" width="700px">
 
 
 # 性能优化策略及实现
@@ -224,7 +225,7 @@ function member_del(obj,id){
 
 ## 前端检查输入合法性
 ### 效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/27.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/27.png" width="700px">
 ### 核心代码
 ```javascript
 form.verify({
@@ -245,7 +246,7 @@ form.verify({
 点击更换验证码，后台先进行验证码校验，通过后再进行后续操作
 
 ### 效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/28.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/28.png" width="700px">
 ### 核心代码
 ```php
 public function verify()
@@ -257,8 +258,8 @@ public function verify()
 ## token
 token实现免登录功能，过一定时间后，token自动失效；也可以通过主页的“安全退出”使token过期。
 ### 效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/30.png" width="700px"\>
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/29.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/30.png" width="700px">
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/29.png" width="700px">
 ### 核心代码
 ```php
 public function dologin() {
@@ -309,7 +310,7 @@ public function dologin() {
 ```
 ## 权限验证
 ### 效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/31.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/31.png" width="700px">
 ### 核心代码
 ```php
 //Common.php
@@ -362,8 +363,8 @@ public function __construct() {
 ```
 ## 按钮灰色
 ### 效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/32.png" width="700px"\>
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/33.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/32.png" width="700px">
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/33.png" width="700px">
 
 ### 核心代码
 ```javascript
@@ -385,7 +386,7 @@ function YanChi()
 ## 后端会检查时间
 如果有用户想通过url直接购买秒杀商品，会被后台拦截
 ### 效果图
-<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/34.png" width="700px"\>
+<img scr="https://github.com/MarshaZheng/seckill-system/tree/main/data/img/34.png" width="700px">
 ### 核心代码
 ```php
 public function buy_sale(){//秒杀的购买单独处理
