@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    {include file="public/head" /}
+</head>
+<!-- <script type="text/javascript">
+    var time = sale['start']-time;
+    var clean = setInterval(function () {
+        time = time-1;
+        document.getElementById("time").innerHTML = time;
+        if(time<=0){
+            document.getElementById("button").disabled = false;
+            clearInterval(clean);
+        }
+    }, 1000);
+
+</script> -->
+<body>
+    
+    <!-- Start Header Area -->
+    <header class="header-area">
+        <!-- main header start -->
+        <div class="main-header d-none d-lg-block">
+            <!-- header top start -->
+            
+            <!-- header top end -->
+
+            <!-- header middle area start -->
+            <div class="header-main-area sticky">
+                <div class="container">
+                    <div class="row align-items-center position-relative">
+
+                        <!-- start logo area -->
+                        <div class="col-lg-3">
+                            <div class="logo">
+                                <a href="/index.php/user/main/index">
+                                    <h2>淘多多购物商城</h2>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- start logo area -->
+
+                        <!-- main menu area start -->
+                        <div class="col-lg-6 position-static">
+                            <div class="main-menu-area">
+                                <div class="main-menu">
+                                    <!-- main menu navbar start -->
+                                    <nav class="desktop-menu">
+                                        <ul>
+                                            <li><a href="/index.php/user/main/index">主页</a></li>
+                                            <li><a href="/index.php/user/main/shop">商城</a></li>
+                                        </ul>
+                                    </nav>
+                                    <!-- main menu navbar end -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- main menu area end -->
+
+                        <!-- mini cart area start -->
+                        <div class="col-lg-3">
+                            <div class="header-configure-wrapper">
+                                <div class="header-configure-area">
+                                    <ul class="nav justify-content-end">
+                                        <li class="user-hover">
+                                            <a href="#">
+                                                <i class="lnr lnr-user"></i>
+                                            </a>
+                                            <ul class="dropdown-list">
+                                                <li><a href="/index.php/user/login/index">login</a></li>
+                                                <li><a href="/index.php/user/login/signup">register</a></li>
+                                                <li><a href="/index.php/user/main/order_list">my account</a></li>
+                                            </ul>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- mini cart area end -->
+
+                    </div>
+                </div>
+            </div>
+            <!-- header middle area end -->
+        </div>
+        <!-- main header start -->
+
+        <!-- mobile header start -->
+        <div class="mobile-header d-lg-none d-md-block sticky">
+            <!--mobile header top start -->
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <div class="mobile-main-header">
+                            <div class="mobile-logo">
+                                <a href="index.html">
+                                    <img src="/static/assets/img/logo/logo.png" alt="Brand Logo">
+                                </a>
+                            </div>
+                            <div class="mobile-menu-toggler">
+                                <div class="mini-cart-wrap">
+                                    <a href="#">
+                                        <i class="lnr lnr-cart"></i>
+                                    </a>
+                                </div>
+                                <div class="mobile-menu-btn">
+                                    <div class="off-canvas-btn">
+                                        <i class="lnr lnr-menu"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- mobile header top start -->
+        </div>
+        <!-- mobile header end -->
+    </header>
+    <!-- end Header Area -->
+
+    <!-- off-canvas menu start -->
+    <aside class="off-canvas-wrapper">
+        <div class="off-canvas-overlay"></div>
+        <div class="off-canvas-inner-content">
+            <div class="btn-close-off-canvas">
+                <i class="lnr lnr-cross"></i>
+            </div>
+
+            <div class="off-canvas-inner">
+                <!-- search box start -->
+                <div class="search-box-offcanvas">
+                    <form>
+                        <input type="text" placeholder="Search Here...">
+                        <button class="search-btn"><i class="lnr lnr-magnifier"></i></button>
+                    </form>
+                </div>
+                <!-- search box end -->
+
+                <!-- mobile menu start -->
+                <div class="mobile-navigation">
+
+                    <!-- mobile menu navigation start -->
+                    <nav>
+                        <ul class="mobile-menu">
+                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="shop.html">Shop</a></li>
+                                            
+                        </ul>
+                    </nav>
+                    <!-- mobile menu navigation end -->
+                </div>
+                <!-- mobile menu end -->
+
+                <div class="mobile-settings">
+                    <ul class="nav">
+                        
+                        <li>
+                            <div class="dropdown mobile-top-dropdown">
+                                <a href="#" class="dropdown-toggle" id="myaccount" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    My Account
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-list">
+                                    <li><a href="/index.php/user/login/logout">logout</a></li>
+                                    <li><a href="/index.php/user/login/signup">register</a></li>
+                                    <li><a href="/index.php/user/main/order_list">my order</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- offcanvas widget area start -->
+                
+                <!-- offcanvas widget area end -->
+            </div>
+        </div>
+    </aside>
+    <!-- off-canvas menu end -->
+
+
+
+    <!-- main wrapper start -->
+    <main>
+        <!-- breadcrumb area start -->
+        <div class="breadcrumb-area common-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="breadcrumb-wrap">
+                            <nav aria-label="breadcrumb">
+                                <h1>商品详情</h1>
+                                <ul class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="/index.php/user/main/index"><i class="fa fa-home"></i></a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">商品详情</li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- breadcrumb area end -->
+
+        <!-- page main wrapper start -->
+        <div class="shop-main-wrapper section-space">
+            <div class="container">
+                <div class="row">
+                    <!-- product details wrapper start -->
+                    <div class="col-lg-12 order-1 order-lg-2">
+                        <!-- product details inner end -->
+                        <div class="product-details-inner">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <div class="product-large-slider">
+                                        <div class="pro-large-img img-zoom">
+                                            <img src="/static/upload/admin/{$product['image']}"  alt="product-details" style="width: 400px;
+                                            height:400px;margin-right: 10px;"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="product-details-des">
+                                        <h3 class="product-name">{$product['brand']}:{$product['name']}</h3>
+                                        <div class="ratings d-flex">
+                                            <span><i class="lnr lnr-star"></i></span>
+                                            <span><i class="lnr lnr-star"></i></span>
+                                            <span><i class="lnr lnr-star"></i></span>
+                                            <span><i class="lnr lnr-star"></i></span>
+                                            <span><i class="lnr lnr-star"></i></span>
+                                        </div>
+                                        <div class="price-box">
+                                            <span class="price-regular">¥{$sale['price']}</span>
+                                            <span class="price-old"><del>¥{$sale['old_price']}</del></span>
+                                        </div>
+                                        <br>
+                                        <p class="pro-desc">秒杀开始时间：{:date('Y-m-d H:i:s',$sale['start_time'])}</p>
+                                            <p class="pro-desc">秒杀结束时间：{:date('Y-m-d H:i:s',$sale['end_time'])}</p>
+                                        
+                                        <div class="availability">
+                                            <i class="fa fa-check-circle"></i>
+                                            <span>库存：{$sale['amount']}</span>
+                                        </div>
+                                        <p class="pro-desc">商品描述：{$product['description']}</p>
+                                        <p>（仅可购买一件）</p>
+                                        <br>
+                                        <br>
+                                        <form method="post" action="/index.php/user/main/buy_sale?id={$sale['id']}">
+                                        <div class="quantity-cart-box d-flex align-items-center">
+                                           
+                                            <h5>购买数量:</h5>
+                                            <div class="quantity">
+                                                <div class="pro-qty"><input type="text" name='amount' value="1" readonly =“readonly”></div>
+                                            </div>
+                                            <div class="action_link">
+                                                <!-- <button class="btn btn-cart2" id='btn' disabled="true" >立刻购买</button> -->
+                                                <!-- <input type="button" class="btn btn-cart2" id='btn' disabled="true" value="秒杀" > -->
+                                                <input id="btn"  class="btn btn-cart2" type="submit" value="立刻抢购" style="width:100px; height:35px" disabled="disabled" />
+
+                                                还有<span id="daojishi">{$sale['start_time']-$cur_time}</span>s活动开始
+
+                                                </div>
+                                            </div>
+                                            <br>
+                                            
+                                        </div></form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- product details inner end -->
+
+                        <!-- product details reviews start -->
+                        
+                        <!-- product details reviews end -->
+                    </div>
+                    <!-- product details wrapper end -->
+                </div>
+            </div>
+        </div>
+        <!-- page main wrapper end -->
+
+        <!-- related product area start -->
+        </main>
+    <!-- offcanvas mini cart end -->
+
+    <!-- Scroll to top start -->
+    <div class="scroll-top not-visible">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <!-- Scroll to Top End -->
+
+    <!-- All vendor & plugins & active js include here -->
+    <!--All Vendor Js -->
+    <script type="text/javascript">
+    // $(function(){
+    //     var stringTime = "2021-01-21 19:00:00";
+    //     var timestamp2 = Date.parse(new Date(stringTime));
+    //     timestamp2 = timestamp2 / 1000;  //获取到的 格式日期 的时间戳
+    
+    //     var myDate = new Date();
+    //     var timestamp = myDate.getTime()/1000;  //当前时间戳 获取的时间戳为毫秒 需除1000
+    //     timestamp = timestamp.toFixed();
+    
+    //     //过了某时间 直接不可点
+    //     var stringTime3 = "2021-01-22 20:02:00";
+    //     var timestamp4 = Date.parse(new Date(stringTime3));
+    //     timestamp4 = timestamp4 / 1000;  //获取到的 格式日期 的时间戳
+    //     if(timestamp>timestamp4){
+    //         alert('活动已结束');
+    //         return;
+    //     }
+    
+    //     if(timestamp>timestamp2 && timestamp<timestamp4){
+    //         $("#btn").val("秒杀").removeAttr("disabled");
+    //         return;
+    //     }
+    
+    //     var count = timestamp2 - timestamp;
+    
+    //     var countdown = setInterval(CountDown, 1000);
+    //     function CountDown() {
+    //         $("#btn").val("离活动开始还有" + count + "秒");
+    //         if (count == 0) {
+    //             $("#btn").val("秒杀").removeAttr("disabled");
+    //             clearInterval(countdown);
+    //         }
+    //         count--;
+    //     }
+    // });
+    window.setTimeout("YanChi()",1000);
+
+function YanChi()
+
+{  
+
+　　var span = document.getElementById("daojishi");    
+
+　　//改变span里面的值  
+
+　　span.innerText = span.innerText-1;    
+
+　　//判断是否减到了0
+
+ 　　if(span.innerText <= 0)
+
+ 　　{   
+
+　　　　document.getElementById("btn").removeAttribute("disabled");   
+
+　　　　return;
+
+ 　　}  
+
+ 　　window.setTimeout("YanChi()",1000);  
+
+}
+
+window.setInterval("Bian()",1000);
+
+ 
+
+ 
+
+function Bian()
+
+{  
+
+　　var sj = new Date();      
+document.getElementById("s1").innerText = "结束";  
+　　document.getElementById("h").innerText = sj.getHours();  
+
+　　document.getElementById("m").innerText = sj.getMinutes();  
+
+　　document.getElementById("s").innerText = sj.getSeconds();  
+
+}
+</script>
+    <script src="assets/js/vendor.js"></script>
+    <!-- Active Js -->
+    <script src="assets/js/active.js"></script>
+</body>
+
+</html>

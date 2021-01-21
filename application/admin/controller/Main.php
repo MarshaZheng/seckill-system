@@ -11,10 +11,22 @@ class Main extends Common{
 
     public function index()
     {
+        
         return view();
     }
     public function welcome()
     {
+        $item_amount = db('seckill_item')->count();
+        $order_amount = db('seckill_order')->count();
+        $user_amount = db('seckill_user')->count();
+        $sale_amount = db('seckill_sale')->count();
+        $admin_amount = db('seckill_admin')->count();
+        $this->assign("username",$this->user_name);
+        $this->assign("item_amount",$item_amount);
+        $this->assign("order_amount",$order_amount);
+        $this->assign("user_amount",$user_amount);
+        $this->assign("sale_amount",$sale_amount);
+        $this->assign("admin_amount",$admin_amount);
         return view();
     }
     public function add_rule()
@@ -51,7 +63,7 @@ class Main extends Common{
     }
     public function add_sale()
     {
-        $list = db("seckill_item")->select();
+        $list = db("seckill_item")->where('status',1)->select();
         $this->assign("list",$list);
         return view();
     }
@@ -61,16 +73,17 @@ class Main extends Common{
         $price = $_REQUEST['price'];
         $old_price = $_REQUEST['old_price'];
         $amount = $_REQUEST['amount'];
-        $start_time = $_REQUEST['start_time'];
-        $end_time = $_REQUEST['end_time'];
+        $start_time = strtotime($_REQUEST['start_time']);
+        $end_time = strtotime($_REQUEST['end_time']);
         $status = $_REQUEST['status'];
         $result = db('seckill_sale')->where(['item_id'=>$item_id])->select();
         if($result){
             $this->error('该商品的促销已存在');
             return;
         }
+        $item = db('seckill_item')->where(['id'=>$item_id])->find();
         $data = array('item_id'=>$item_id, 'price'=>$price, 'old_price'=>$old_price, 'amount'=>$amount,'start_time'=>$start_time,
-                    'end_time'=>$end_time,'status'=>$status);
+                    'end_time'=>$end_time,'image'=>$item['image'],'status'=>$status);
         $result = db('seckill_sale')->insert($data);
         if($result){
             $result = Db::table('seckill_item')->where('id', $item_id)->setField(['status'=>0]);
@@ -86,6 +99,14 @@ class Main extends Common{
         $list = db("seckill_admin_group")->select();
         $this->assign("list",$list);
         return view();
+    }
+    public function log()
+    {
+        $number = db("seckill_log")->count();
+        $list = db("seckill_log")->where('id','>',$number-20)->select();
+	
+        $this->assign('list', $list);
+        return $this->fetch();
     }
     public function do_add_admin()
     {
@@ -105,6 +126,28 @@ class Main extends Common{
         }
         else{
             $this->error('管理员添加失败');
+        }
+        return;
+    }
+    public function del_order()
+    {
+        $id = $_REQUEST['id'];
+        $res = db('seckill_order')->where('id', $id)->delete();
+        if ($res) {
+            echo json_encode(1);
+        } else {
+            echo json_encode(0);
+        }
+        return;
+    }
+    public function del_sale()
+    {
+        $id = $_REQUEST['id'];
+        $res = db('seckill_sale')->where('id', $id)->delete();
+        if ($res) {
+            echo json_encode(1);
+        } else {
+            echo json_encode(0);
         }
         return;
     }

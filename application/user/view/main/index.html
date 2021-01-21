@@ -2,28 +2,7 @@
 <html class="no-js" lang="zxx">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="meta description">
-    <title>淘多多商城Home</title>
-
-    <!--=== Favicon ===-->
-    <link rel="shortcut icon" href="/static/assets/img/favicon.ico" type="image/x-icon" />
-
-    <!-- Google fonts include -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,900%7CYesteryear" rel="stylesheet">
-
-    <!-- All Vendor & plugins CSS include -->
-    <link href="/static/assets/css/vendor.css" rel="stylesheet">
-    <!-- Main Style CSS -->
-    <link href="/static/assets/css/style.css" rel="stylesheet">
-
-    <!--[if lt IE 9]>
-<script src="/oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="/oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-
+    {include file="public/head" /}
 </head>
 
 <body>
@@ -44,8 +23,8 @@
                         <!-- start logo area -->
                         <div class="col-lg-3">
                             <div class="logo">
-                                <a href="index.html">
-                                    <img src="/static/assets/img/logo/logo.png" alt="">
+                                <a href="/index.php/user/main/index">
+                                    <h2>淘多多购物商城</h2>
                                 </a>
                             </div>
                         </div>
@@ -58,8 +37,9 @@
                                     <!-- main menu navbar start -->
                                     <nav class="desktop-menu">
                                         <ul>
-                                            <li><a href="index.html">主页</a></li>
-                                            <li><a href="shop.html">商城</a></li>
+                                            <li><a href="/index.php/user/main/index">主页</a></li>
+                                            <li><a href="/index.php/user/main/shop">商城</a></li>
+
                                         </ul>
                                     </nav>
                                     <!-- main menu navbar end -->
@@ -73,33 +53,18 @@
                             <div class="header-configure-wrapper">
                                 <div class="header-configure-area">
                                     <ul class="nav justify-content-end">
-                                        <li>
-                                            <a href="#" class="offcanvas-btn">
-                                                <i class="lnr lnr-magnifier"></i>
-                                            </a>
-                                        </li>
+                                        
                                         <li class="user-hover">
                                             <a href="#">
                                                 <i class="lnr lnr-user"></i>
                                             </a>
                                             <ul class="dropdown-list">
-                                                <li><a href="#">login</a></li>
-                                                <li><a href="#">register</a></li>
-                                                <li><a href="#">my account</a></li>
+                                                <li><a href="/index.php/user/login/logout">logout</a></li>
+                                                <li><a href="/index.php/user/login/signup">register</a></li>
+                                                <li><a href="/index.php/user/main/order_list">my order</a></li>
                                             </ul>
                                         </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="lnr lnr-heart"></i>
-                                                <div class="notification">0</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="minicart-btn">
-                                                <i class="lnr lnr-cart"></i>
-                                                <div class="notification">2</div>
-                                            </a>
-                                        </li>
+                                        
                                     </ul>
                                 </div>
                             </div>
@@ -122,7 +87,7 @@
                         <div class="mobile-main-header">
                             <div class="mobile-logo">
                                 <a href="index.html">
-                                    <img src="/static/assets/img/logo/logo.png" alt="Brand Logo">
+                                    <h2>淘多多商城</h2>
                                 </a>
                             </div>
                             <div class="mobile-menu-toggler">
@@ -199,25 +164,7 @@
                 </div>
 
                 <!-- offcanvas widget area start -->
-                <div class="offcanvas-widget-area">
-                    <div class="off-canvas-contact-widget">
-                        <ul>
-                            <li><i class="fa fa-mobile"></i>
-                                <a href="#">0123456789</a>
-                            </li>
-                            <li><i class="fa fa-envelope-o"></i>
-                                <a href="#">info@yourdomain.com</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="off-canvas-social-widget">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                        <a href="#"><i class="fa fa-youtube-play"></i></a>
-                    </div>
-                </div>
+                
                 <!-- offcanvas widget area end -->
             </div>
         </div>
@@ -245,7 +192,7 @@
                                     <div class="hero-slider-content slide-1">
                                         <span>{$vo.brand}</span>
                                         <h1>{$vo.description}</h1>
-                                        <a href="shop.html" class="btn-hero">shop now</a>
+                                        <a href="/index.php/user/main/shop" class="btn-hero">shop now</a>
                                     </div>
                                 </div>
                             </div>
@@ -345,7 +292,7 @@
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <div class="product-item mt-40">
                             <figure class="product-thumb">
-                                <a href="product-details.html">
+                                <a href="/index.php/user/main/product_details?name={$vo2.name}">
                                     <img class="pri-img" src="/static/upload/admin/{$vo2.image}" alt="product" style="width: 300px;
                                     height:300px;margin-right: 10px;">
                                     <img class="sec-img" src="/static/upload/admin/{$vo2.image}" alt="product" style="width: 300px;
@@ -367,7 +314,7 @@
                             </figure>
                             <div class="product-caption">
                                 <p class="product-name">
-                                    <a href="product-details.html">{$vo2.brand}{$vo2.name}</a>
+                                    <a href="/index.php/user/main/product_details?name={$vo2.name}">{$vo2.brand}{$vo2.name}</a>
                                 </p>
                                 <div class="price-box">
                                     <span class="price-regular">¥{$vo2.price}</span>
@@ -381,7 +328,7 @@
             
                     <div class="col-12">
                         <div class="view-more-btn">
-                            <a class="btn-hero btn-load-more" href="shop.html">view more products</a>
+                            <a class="btn-hero btn-load-more" href="/index.php/user/main/shop">view more products</a>
                         </div>
                     </div>
                 </div>
@@ -407,39 +354,35 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="product-carousel--4 slick-row-15 slick-sm-row-10 slick-arrow-style">
-                            {volist name="list" id="vo"}
+                            {volist name="list3" id="vo3"}
                             <tbody>
                             <tr>
-                            <!-- product single item start -->
+                            
                             <div class="product-item">
                                 <figure class="product-thumb">
-                                    <a href="product-details.html">
-                                        <img class="pri-img" src="/static/assets/img/product/product-9.jpg" alt="product">
-                                        <img class="sec-img" src="/static/assets/img/product/product-6.jpg" alt="product">
+                                    <a href="/index.php/user/main/sale_details?id={$vo3.id}">
+                                        <img class="pri-img" src="/static/upload/admin/{$vo3.image}" alt="product">
+                                        <img class="sec-img" src="/static/upload/admin/{$vo3.image}" alt="product">
                                     </a>
                                     <div class="product-badge">
                                         <div class="product-label new">
-                                            <span>new</span>
+                                            <span>sale</span>
                                         </div>
                                     </div>
-                                    <div class="button-group">
-                                        <a href="#" data-toggle="tooltip" data-placement="left" title="Add to wishlist"><i class="lnr lnr-heart"></i></a>
-                                        <a href="#" data-toggle="modal" data-target="#quick_view"><span data-toggle="tooltip" data-placement="left" title="Quick View"><i class="lnr lnr-magnifier"></i></span></a>
-                                        <a href="#" data-toggle="tooltip" data-placement="left" title="Add to Cart"><i class="lnr lnr-cart"></i></a>
-                                    </div>
+                                    
                                 </figure>
                                 <div class="product-caption">
                                     <p class="product-name">
-                                        <a href="product-details.html">Blossom bouquet flower</a>
+                                       
                                     </p>
                                     <div class="price-box">
-                                        <span class="price-regular">$50.00</span>
-                                        <span class="price-old"><del>$80.00</del></span>
+                                        <span class="price-regular">¥{$vo3.price}</span>
+                                        <span class="price-old"><del>¥{$vo3.old_price}</del></span>
                                     </div>
                                 </div>
                             </div>
                            
-                            <!-- product single item end -->
+                            
                               </tr>
                             </tbody>{/volist}
                         </div>
@@ -484,7 +427,7 @@
                                         <img src="/static/assets/img/product/product-details-img2.jpg" alt="product-details" />
                                     </div>
                                     <div class="pro-large-img">
-                                        <img src="assets/img/product/product-details-img3.jpg" alt="product-details" />
+                                        <img src="/assets/img/product/product-details-img3.jpg" alt="product-details" />
                                     </div>
                                     <div class="pro-large-img">
                                         <img src="/static/assets/img/product/product-details-img4.jpg" alt="product-details" />
@@ -562,100 +505,11 @@
     <!-- Quick view modal end -->
 
     <!-- offcanvas search form start -->
-    <div class="offcanvas-search-wrapper">
-        <div class="offcanvas-search-inner">
-            <div class="offcanvas-close">
-                <i class="lnr lnr-cross"></i>
-            </div>
-            <div class="container">
-                <div class="offcanvas-search-box">
-                    <form class="d-flex bdr-bottom w-100">
-                        <input type="text" placeholder="Search entire storage here...">
-                        <button class="search-btn"><i class="lnr lnr-magnifier"></i>search</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <!-- offcanvas search form end -->
 
     <!-- offcanvas mini cart start -->
-    <div class="offcanvas-minicart-wrapper">
-        <div class="minicart-inner">
-            <div class="offcanvas-overlay"></div>
-            <div class="minicart-inner-content">
-                <div class="minicart-close">
-                    <i class="lnr lnr-cross"></i>
-                </div>
-                <div class="minicart-content-box">
-                    <div class="minicart-item-wrapper">
-                        <ul>
-                            <li class="minicart-item">
-                                <div class="minicart-thumb">
-                                    <a href="product-details.html">
-                                        <img src="assets/img/cart/cart-1.jpg" alt="product">
-                                    </a>
-                                </div>
-                                <div class="minicart-content">
-                                    <h3 class="product-name">
-                                        <a href="product-details.html">Flowers bouquet pink for all flower lovers</a>
-                                    </h3>
-                                    <p>
-                                        <span class="cart-quantity">1 <strong>&times;</strong></span>
-                                        <span class="cart-price">$100.00</span>
-                                    </p>
-                                </div>
-                                <button class="minicart-remove"><i class="lnr lnr-cross"></i></button>
-                            </li>
-                            <li class="minicart-item">
-                                <div class="minicart-thumb">
-                                    <a href="product-details.html">
-                                        <img src="/static/assets/img/cart/cart-2.jpg" alt="product">
-                                    </a>
-                                </div>
-                                <div class="minicart-content">
-                                    <h3 class="product-name">
-                                        <a href="product-details.html">Jasmine flowers white for all flower lovers</a>
-                                    </h3>
-                                    <p>
-                                        <span class="cart-quantity">1 <strong>&times;</strong></span>
-                                        <span class="cart-price">$80.00</span>
-                                    </p>
-                                </div>
-                                <button class="minicart-remove"><i class="lnr lnr-cross"></i></button>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="minicart-pricing-box">
-                        <ul>
-                            <li>
-                                <span>sub-total</span>
-                                <span><strong>$300.00</strong></span>
-                            </li>
-                            <li>
-                                <span>Eco Tax (-2.00)</span>
-                                <span><strong>$10.00</strong></span>
-                            </li>
-                            <li>
-                                <span>VAT (20%)</span>
-                                <span><strong>$60.00</strong></span>
-                            </li>
-                            <li class="total">
-                                <span>total</span>
-                                <span><strong>$370.00</strong></span>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="minicart-button">
-                        <a href="#"><i class="fa fa-shopping-cart"></i> view cart</a>
-                        <a href="#"><i class="fa fa-share"></i> checkout</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <!-- offcanvas mini cart end -->
 
     <!-- Scroll to top start -->

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    {include file="public/head" /}
+    <!-- <link rel="stylesheet" href="/static/css/xadmin.css">
+    <script src="/static/lib/layui/layui.js" charset="utf-8"></script>
+<script type="text/javascript" src="/static/js/xadmin.js"></script> -->
+</head>
+
+<body>
+
+    <!-- Start Header Area -->
+    <header class="header-area">
+        <!-- main header start -->
+        <div class="main-header d-none d-lg-block">
+            <!-- header top start -->
+            
+            <!-- header top end -->
+
+            <!-- header middle area start -->
+            <div class="header-main-area sticky">
+                <div class="container">
+                    <div class="row align-items-center position-relative">
+
+                        <!-- start logo area -->
+                        <div class="col-lg-3">
+                            <div class="logo">
+                                <a href="/index.php/user/main/index">
+                                    <h2>淘多多购物商城</h2>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- start logo area -->
+
+                        <!-- main menu area start -->
+                        <div class="col-lg-6 position-static">
+                            <div class="main-menu-area">
+                                <div class="main-menu">
+                                    <!-- main menu navbar start -->
+                                    <nav class="desktop-menu">
+                                        <ul>
+                                            <li><a href="/index.php/user/main/index">Home</a></li>
+                                            <li><a href="/index.php/user/main/shop">Shop</a></li>
+                                        </ul>
+                                    </nav>
+                                    <!-- main menu navbar end -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- main menu area end -->
+
+                        <!-- mini cart area start -->
+                        <div class="col-lg-3">
+                            <div class="header-configure-wrapper">
+                                <div class="header-configure-area">
+                                    <ul class="nav justify-content-end">
+                                       
+                                        <li class="user-hover">
+                                            <a href="#">
+                                                <i class="lnr lnr-user"></i>
+                                            </a>
+                                            <ul class="dropdown-list">
+                                                <li><a href="/index.php/user/login/logout">logout</a></li>
+                                                <li><a href="/index.php/user/login/signup">register</a></li>
+                                                <li><a href="/index.php/user/main/order_list">my order</a></li>
+                                            </ul>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- mini cart area end -->
+
+                    </div>
+                </div>
+            </div>
+            <!-- header middle area end -->
+        </div>
+        <!-- main header start -->
+
+        <!-- mobile header start -->
+        <div class="mobile-header d-lg-none d-md-block sticky">
+            <!--mobile header top start -->
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <div class="mobile-main-header">
+                            <div class="mobile-logo">
+                                <a href="index.html">
+                                    <img src="/static/assets/img/logo/logo.png" alt="Brand Logo">
+                                </a>
+                            </div>
+                            <div class="mobile-menu-toggler">
+                                <div class="mini-cart-wrap">
+                                    <a href="#">
+                                        <i class="lnr lnr-cart"></i>
+                                    </a>
+                                </div>
+                                <div class="mobile-menu-btn">
+                                    <div class="off-canvas-btn">
+                                        <i class="lnr lnr-menu"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- mobile header top start -->
+        </div>
+        <!-- mobile header end -->
+    </header>
+    <!-- end Header Area -->
+
+    <!-- off-canvas menu start -->
+    <aside class="off-canvas-wrapper">
+        <div class="off-canvas-overlay"></div>
+        <div class="off-canvas-inner-content">
+            <div class="btn-close-off-canvas">
+                <i class="lnr lnr-cross"></i>
+            </div>
+
+            <div class="off-canvas-inner">
+                <!-- search box start -->
+                <div class="search-box-offcanvas">
+                    <form>
+                        <input type="text" placeholder="Search Here...">
+                        <button class="search-btn"><i class="lnr lnr-magnifier"></i></button>
+                    </form>
+                </div>
+                <!-- search box end -->
+
+                <!-- mobile menu start -->
+                <div class="mobile-navigation">
+
+                    <!-- mobile menu navigation start -->
+                    
+                    <!-- mobile menu navigation end -->
+                </div>
+                <!-- mobile menu end -->
+
+                <div class="mobile-settings">
+                    <ul class="nav">
+                        
+                        <li>
+                            <div class="dropdown mobile-top-dropdown">
+                                <a href="#" class="dropdown-toggle" id="myaccount" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    My Account
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="myaccount">
+                                    <a class="dropdown-item" href="/index.php/user/main/order_list">my account</a>
+                                    <a class="dropdown-item" href="/index.php/user/login/index"> login</a>
+                                    <a class="dropdown-item" href="/index.php/user/login/signup">register</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- offcanvas widget area start -->
+                
+                <!-- offcanvas widget area end -->
+            </div>
+        </div>
+    </aside>
+    <!-- off-canvas menu end -->
+
+
+
+    <!-- main wrapper start -->
+    <main>
+        <!-- breadcrumb area start -->
+        <div class="breadcrumb-area common-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="breadcrumb-wrap">
+                            <nav aria-label="breadcrumb">
+                                <h1>我的订单</h1>
+                                <ul class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="/index.php/user/main/index"><i class="fa fa-home"></i></a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">我的订单</li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- breadcrumb area end -->
+
+        <!-- page main wrapper start -->
+        <div class="shop-main-wrapper section-space">
+            <div class="container">
+                <div class="row">
+                    <!-- product details wrapper start -->
+                    <div class="col-lg-12 order-1 order-lg-2">
+                        <!-- product details inner end -->
+                        <div class="product-details-inner">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <div class="product-details-des">
+                                        <div class="layui-card-body layui-table-body layui-table-main">
+                                            <table class="order-summary-table" border='1' cellpadding='10%'  width="1200">
+                                                <thead>
+                                                  <tr>
+                                                    <th align='center'>订单编号</th>
+                                                    <th align='center' >商品名称</th>
+                                                    <th align='center' >商品单价(元)</th>
+                                                    <th align='center'>商品数量</th>
+                                                    <th align='center'>运费(元)</th>
+                                                    <th align='center'>总价(元)</th>
+                                                    <th align='center'>提交时间</th>
+                                                    <th align='center'>支付时间</th>
+                                                    <th align='center'>订单状态</th></tr>
+                                                </thead>
+                                                {volist name="list" id="vo"}
+                                                <tbody>
+                                                  <tr>
+                                                    
+                                                    <td align='center'>{$vo.serial_number}</td>
+                                                    <td align='center'>{$vo.item}</td>
+                                                    <td align='center'>{$vo.price}</td>
+                                                    <td align='center'>{$vo.amount}</td>
+                                                    <td align='center'>{$vo.freight}</td>
+                                                    <td align='center'>{$vo.total_price}</td>
+                                                    <td align='center'>{:date('Y-m-d H:i:s',$vo.submit_time)}</td>
+                                                    <td align='center'>{:date('Y-m-d H:i:s',$vo.pay_time)}</td>
+                                                    <td align='center'>{$vo.status}</td>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>{/volist}
+                                            </table>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- product details inner end -->
+
+                        <!-- product details reviews start -->
+                        
+                        <!-- product details reviews end -->
+                    </div>
+                    <!-- product details wrapper end -->
+                </div>
+            </div>
+        </div>
+        <!-- page main wrapper end -->
+
+        <!-- related product area start -->
+        </main>
+    <!-- offcanvas mini cart end -->
+
+    <!-- Scroll to top start -->
+    <div class="scroll-top not-visible">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <!-- Scroll to Top End -->
+
+    <!-- All vendor & plugins & active js include here -->
+    <!--All Vendor Js -->
+        <script>
+      function member_del(obj,id){
+            layer.confirm('确认要删除吗？',function(index){
+              $.ajax({
+                url: '/index.php/admin/Main/del_order',
+                type: "POST",
+                data:{"id":id},
+                dataType: "json",
+                async:true,
+                success:function (msg) {
+                  if(msg == 1){
+                    //发异步删除数据
+                    $(obj).parents("tr").remove();
+                    layer.msg('已删除!',{icon:1,time:1000});
+                  }
+                  if(msg == 0){
+                    //发异步删除数据
+                    layer.msg('删除失败!',{icon:1,time:1000});
+                  }
+                },
+                error:function(msg){
+                  layer.msg("ajax error: ",{icon:1,time:1000});
+                }
+              });
+            });
+        }
+        layui.use(['laydate','form'], function(){
+          var laydate = layui.laydate;
+          var  form = layui.form;
+  
+  
+          // 监听全选
+          form.on('checkbox(checkall)', function(data){
+  
+            if(data.elem.checked){
+              $('tbody input').prop('checked',true);
+            }else{
+              $('tbody input').prop('checked',false);
+            }
+            form.render('checkbox');
+          }); 
+          
+          //执行一个laydate实例
+          laydate.render({
+            elem: '#start' //指定元素
+          });
+  
+          //执行一个laydate实例
+          laydate.render({
+            elem: '#end' //指定元素
+          });
+  
+  
+        });
+  
+
+      </script>
+    <script src="assets/js/vendor.js"></script>
+    <!-- Active Js -->
+    <script src="assets/js/active.js"></script>
+</body>
+
+</html>

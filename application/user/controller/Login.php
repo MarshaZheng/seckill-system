@@ -26,17 +26,42 @@ class Login extends Controller {
         return $this->fetch();
     
     }
-    /**
-     * 处理登录
-     */
+    public function logout(){
+        setcookie('token', '',time() - 24 * 3600,'/');
+        
+        $this->success("您已安全退出");
+        return;
+    }
+    public function do_signup()
+    {
+        $phone=  $_REQUEST['phone'];
+        $username = $_REQUEST['username'];
+        $password = $_REQUEST['pass'];
+        $result = db('seckill_user')->where('username', $username)->select();
+        if($result){
+            $this->error('用户名已存在');
+            return;
+        }
+        $result = db('seckill_user')->where('phone', $phone)->select();
+        if($result){
+            $this->error('用户名已存在');
+            return;
+        }
+        $data = array('username'=>$username, 'password'=>md5($password), 'phone'=>$phone);
+        $result = db('seckill_user')->insert($data);
+        if($result){
+            $this->success('注册成功','/index.php/user/login/index');
+        }
+        else{
+            $this->error('注册失败','/index.php/user/login/signup');
+        }
+        return;
+    }
     public function verify()
     {
         $captcha = new Captcha();
         return $captcha->entry();
     }
-    /**
-     * 处理登录
-     */
     public function dologin() {
         //验证密码流程
         if(request()->isPost()){
@@ -47,6 +72,7 @@ class Login extends Controller {
             }
         }
 
+        
         $username = $_REQUEST['username'];
         $password = $_REQUEST['password'];
         $data=Db::table('seckill_user')->where('username',$username)->find();
@@ -67,23 +93,7 @@ class Login extends Controller {
         
     }
  
-    public function check(){
-        //获得来自 URL 的 q 参数
-        $q=$_GET["q"];
-        // 如果未找到提示，则把输出设置为 "no suggestion"
-        // 否则设置为正确的值
-        if ($q == "test")
-        {
-        $response="用户名已被注册";
-        }
-        else
-        {
-        $response="用户名可用";
-        }
-
-        //输出响应
-        echo $response;
-    }
+    
     private function set_token($id){
         $key = "secret";
         $time = time();

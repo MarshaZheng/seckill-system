@@ -22,7 +22,12 @@ class Login extends Controller {
         return $this->fetch();
         
     }
-
+    public function logout(){
+        setcookie('token', '',time() - 24 * 3600,'/');
+        
+        $this->success("您已安全退出",'/index.php/admin/login/index');
+        return;
+    }
     public function verify()
     {
         $captcha = new Captcha();

@@ -14,6 +14,7 @@ class Common extends Controller {
     public function __construct() {
         parent::__construct();
     //     // $this->init();
+        $this->user_name='';
         if (!isset($_COOKIE['token'])) {
             $this->error('请登陆', 'Login/index');
         }else{
@@ -21,6 +22,7 @@ class Common extends Controller {
             if(!$data||$data['expire_time']<time()){
                 $this->error('信息失效，请登录', 'Login/index');
             }
+            $this->user_name = $data['username'];
         }
 
     //     $this->user_id = session('user_id');
@@ -76,8 +78,8 @@ class Common extends Controller {
         $data['a'] = request()->action();
         $data['ip'] = request()->ip();
         $data['time'] = time();
-        
-        if($data['a']){
+        $data['username'] = $this->user_name;
+        if($data['a']!='index'){
             db('seckill_log')->insert($data);
         }
         

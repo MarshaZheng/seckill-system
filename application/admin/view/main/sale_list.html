@@ -63,8 +63,8 @@
                                     <td>{$vo.price}</td>
                                     <td>{$vo.old_price}</td>
                                     <td>{$vo.amount}</td>
-                                    <td>{$vo.start_time}</td>
-                                    <td>{$vo.end_time}</td>
+                                    <td>{:date('Y-m-d H:i:s',$vo.start_time)}</td>
+                                    <td>{:date('Y-m-d H:i:s',$vo.end_time)}</td>
                                     <td>{$vo.status}</td>
                                     <td class="td-manage">
                                       <a title="删除" href="javascript:;" onclick="member_del(this,'{$vo.id}')" 

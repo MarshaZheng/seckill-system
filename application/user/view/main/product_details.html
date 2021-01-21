@@ -39,7 +39,6 @@
                                         <ul>
                                             <li><a href="/index.php/user/main/index">Home</a></li>
                                             <li><a href="/index.php/user/main/shop">Shop</a></li>
-                                            
                                         </ul>
                                     </nav>
                                     <!-- main menu navbar end -->
@@ -53,7 +52,7 @@
                             <div class="header-configure-wrapper">
                                 <div class="header-configure-area">
                                     <ul class="nav justify-content-end">
-                                        
+                                       
                                         <li class="user-hover">
                                             <a href="#">
                                                 <i class="lnr lnr-user"></i>
@@ -134,19 +133,14 @@
                 <div class="mobile-navigation">
 
                     <!-- mobile menu navigation start -->
-                    <nav>
-                        <ul class="mobile-menu">
-                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="shop.html">Shop</a></li>
-                        </ul>
-                    </nav>
+                    
                     <!-- mobile menu navigation end -->
                 </div>
                 <!-- mobile menu end -->
 
                 <div class="mobile-settings">
                     <ul class="nav">
-                       
+                        
                         <li>
                             <div class="dropdown mobile-top-dropdown">
                                 <a href="#" class="dropdown-toggle" id="myaccount" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -155,8 +149,8 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="myaccount">
                                     <a class="dropdown-item" href="#">my account</a>
-                                    <a class="dropdown-item" href="#"> login</a>
-                                    <a class="dropdown-item" href="#">register</a>
+                                    <a class="dropdown-item" href="/index.php/user/login/index"> login</a>
+                                    <a class="dropdown-item" href="/index.php/user/login/signup">register</a>
                                 </div>
                             </div>
                         </li>
@@ -182,10 +176,10 @@
                     <div class="col-12">
                         <div class="breadcrumb-wrap">
                             <nav aria-label="breadcrumb">
-                                <h1>shop</h1>
+                                <h1>商品详情</h1>
                                 <ul class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html"><i class="fa fa-home"></i></a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">shop</li>
+                                    <li class="breadcrumb-item"><a href="/index.php/user/main/index"><i class="fa fa-home"></i></a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">商品详情</li>
                                 </ul>
                             </nav>
                         </div>
@@ -196,95 +190,107 @@
         <!-- breadcrumb area end -->
 
         <!-- page main wrapper start -->
-        <div class="shop-main-wrapper section-space pb-0">
+        <div class="shop-main-wrapper section-space">
             <div class="container">
                 <div class="row">
-                    <!-- sidebar area start -->
-                           
-                            <!-- single sidebar end -->
-
-                            <!-- single sidebar start -->
-                        
-                            <!-- shop product top wrap start -->
-
-                            <!-- product item list wrapper start -->
-                            <div class="shop-product-wrap grid-view row mbn-40">
-                                {volist name="list" id="vo"}
-
-                                <tbody>
-                                <tr>
-                                <!-- product single item start -->
-                                <div class="col-md-4 col-sm-6">
-                                    <!-- product grid start -->
-                                    <div class="product-item">
-                                        <figure class="product-thumb">
-                                            <a href="./product_details?name={$vo.name}">
-                                                <img class="pri-img" src="/static/upload/admin/{$vo.image}" alt="product" style="width: 400px;
-                                                height:300px;margin-right: 10px;">
-                                                <img class="sec-img" src="/static/upload/admin/{$vo.image}" alt="product" style="width: 400px;
-                                                height:300px;margin-right: 10px;">
-                                            </a>
-                                            <div class="product-badge">
-                                                <div class="product-label new">
-                                                    <span>new</span>
-                                                </div>
-                                                <!-- <div class="product-label discount">
-                                                    <span>10%</span>
-                                                </div> -->
-                                            </div>
-                                            <div class="button-group">
-                                                <a href="./product_details?name={$vo.name}" data-toggle="tooltip" data-placement="left" title="Add to Cart"><i class="lnr lnr-cart"></i></a>
-                                            </div>
-                                        </figure>
-                                        <div class="product-caption">
-                                            <p class="product-name">
-                                                <a href="./product_details?name={$vo.name}">{$vo.brand} {$vo.name}:{$vo.description}</a>
-                                            </p>
-                                            <div class="price-box">
-                                                <span class="price-regular">¥{$vo.price}</span>
-                                                <!-- <span class="price-old"><del>$50.00</del></span> -->
-                                            </div>
+                    <!-- product details wrapper start -->
+                    <div class="col-lg-12 order-1 order-lg-2">
+                        <!-- product details inner end -->
+                        <div class="product-details-inner">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <div class="product-large-slider">
+                                        <div class="pro-large-img img-zoom">
+                                            <img src="/static/upload/admin/{$product['image']}"  alt="product-details" style="width: 400px;
+                                            height:400px;margin-right: 10px;"/>
                                         </div>
                                     </div>
-                                    <!-- product grid end -->
-
-                                    <!-- product list item end -->
-                                    
-                                    <!-- product list item end -->
                                 </div>
-                                    </tr>
-                                </tbody>{/volist}
-                                <!-- product single item start -->
-
-
-                                
-
-
-                                
-
-                                
+                                <div class="col-lg-7">
+                                    <div class="product-details-des">
+                                        <h3 class="product-name">{$product['brand']} {$product['name']}</h3>
+                                        <div class="ratings d-flex">
+                                            <span><i class="lnr lnr-star"></i></span>
+                                            <span><i class="lnr lnr-star"></i></span>
+                                            <span><i class="lnr lnr-star"></i></span>
+                                            <span><i class="lnr lnr-star"></i></span>
+                                            <span><i class="lnr lnr-star"></i></span>
+                                        </div>
+                                        <div class="price-box">
+                                            <span class="price-regular">¥{$product['price']}/{$product['unit']}</span>
+                                        </div>
+                                        <h5 class="offer-text"><strong>即将售罄</strong>! </h5>
+                                        <br>
+                                        <div class="availability">
+                                            <i class="fa fa-check-circle"></i>
+                                            <span>库存：{$product['amount']}</span>
+                                        </div>
+                                        <p class="pro-desc">{$product['description']}</p>
+                                        <br>
+                                        <br>
+                                        <form method="post" action="/index.php/user/main/buy_product?id={$product['id']}">
+                                        <div class="quantity-cart-box d-flex align-items-center">
+                                            <h5>购买数量:</h5>
+                                            <div class="quantity">
+                                                <div class="pro-qty"><input type="text"  name="amount" value="1"></div>
+                                            </div>
+                                            <div class="action_link">
+                                                <button class="btn btn-cart2" >立刻购买</button>
+                                            </div>
+                                        </div></form>
+                                    </div>
+                                </div>
                             </div>
-                            <!-- product item list wrapper end -->
-
-                            <!-- start pagination area -->
-                            
-                            <!-- end pagination area -->
                         </div>
+                        <!-- product details inner end -->
+
+                        <!-- product details reviews start -->
+                        <div class="product-details-reviews section-space pb-0">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="product-review-info">
+                                        <ul class="nav review-tab">
+                                            <li>
+                                                <a class="active" data-toggle="tab" href="#tab_one">商品详情</a>
+                                            </li>
+                                            
+                                        </ul>
+                                        <div class="tab-content reviews-tab">
+                                            <div class="tab-pane fade show active" id="tab_one">
+                                                <div class="tab-one">
+                                                    <p>{$product['description']}</p>
+                                                </div>
+                                            </div>
+                                            
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- product details reviews end -->
                     </div>
-                    <!-- shop main wrapper end -->
+                    <!-- product details wrapper end -->
                 </div>
             </div>
         </div>
         <!-- page main wrapper end -->
-    </main>
-    <!-- main wrapper end -->
 
-    <!-- Start Footer Area Wrapper -->
-    
-    <!-- End Footer Area Wrapper -->
+        <!-- related product area start -->
+        </main>
+    <!-- offcanvas mini cart end -->
 
-    <!-- Quick view modal start -->
-    
+    <!-- Scroll to top start -->
+    <div class="scroll-top not-visible">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <!-- Scroll to Top End -->
+
+    <!-- All vendor & plugins & active js include here -->
+    <!--All Vendor Js -->
+    <script src="assets/js/vendor.js"></script>
+    <!-- Active Js -->
+    <script src="assets/js/active.js"></script>
 </body>
 
 </html>
