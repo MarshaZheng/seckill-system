@@ -1,4 +1,4 @@
-<?php /*a:2:{s:71:"/var/www/html/seckill-system/application/admin/view/main/rule_list.html";i:1610976502;s:68:"/var/www/html/seckill-system/application/admin/view/public/head.html";i:1609921784;}*/ ?>
+<?php /*a:2:{s:71:"/var/www/html/seckill-system/application/admin/view/main/rule_list.html";i:1611194224;s:68:"/var/www/html/seckill-system/application/admin/view/public/head.html";i:1609921784;}*/ ?>
 <!DOCTYPE html>
 <html class="x-admin-sm">
     
@@ -49,7 +49,7 @@
                             </form>
                         </div> -->
                         <div class="layui-card-header">
-                            <button class="layui-btn" onclick="xadmin.open('添加广告','./add_advert.html',600,400)"><i class="layui-icon"></i>添加</button>
+                            <button class="layui-btn" onclick="xadmin.open('添加规则','./add_rule.html',600,400)"><i class="layui-icon"></i>添加</button>
                         </div>
                         <div class="layui-card-body layui-table-body layui-table-main">
                             <table class="layui-table layui-form">

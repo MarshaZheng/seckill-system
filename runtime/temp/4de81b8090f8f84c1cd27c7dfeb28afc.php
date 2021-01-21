@@ -1,3 +1,4 @@
+<?php /*a:1:{s:67:"/var/www/html/seckill-system/application/user/view/login/index.html";i:1611131070;}*/ ?>
 <!doctype html>
 <html  class="x-admin-sm">
 <head>
@@ -31,7 +32,7 @@
             <hr class="hr15">
             <div class="layui-input-inline">
             <input name="verifyCode" lay-verify="required" placeholder="请输入验证码"  type="text" class="layui-input"></div>
-            <div class="layui-input-inline"><img src="{:captcha_src()}" height=50px width=160px class="verifyimg reloadverify"></div>
+            <div class="layui-input-inline"><img src="<?php echo captcha_src(); ?>" height=50px width=160px class="verifyimg reloadverify"></div>
             <hr class="hr15">
             <button class="layui-btn layui-btn-lg" lay-submit lay-filter="login" style="width:100%;" type="submit">登录</button>
 

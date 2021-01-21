@@ -1,3 +1,4 @@
+<?php /*a:1:{s:71:"/var/www/html/seckill-system/application/admin/view/main/add_admin.html";i:1611196534;}*/ ?>
 <!DOCTYPE html>
 <html class="x-admin-sm">
     
@@ -27,10 +28,10 @@
                         <div class="layui-input-block">
                           <select name="role" lay-verify="required">
                             <option value="">请选择</option>
-                            {volist name="list" id="vo"}
+                            <?php if(is_array($list) || $list instanceof \think\Collection || $list instanceof \think\Paginator): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
                             <tbody>
-                            <tr><option value={$vo.name}>{$vo.name}</option></tr>
-                            </tbody>{/volist}
+                            <tr><option value=<?php echo htmlentities($vo['name']); ?>><?php echo htmlentities($vo['name']); ?></option></tr>
+                            </tbody><?php endforeach; endif; else: echo "" ;endif; ?>
                           </select>
                       </div>
                     </div>

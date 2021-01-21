@@ -4,7 +4,8 @@ use think\Controller;
 use think\Loader;
 use app\admin\controller\Common;
 use think\Db;
-// class Main extends Controller {
+
+
 class Main extends Common{
 
 
@@ -15,6 +16,132 @@ class Main extends Common{
     public function welcome()
     {
         return view();
+    }
+    public function add_rule()
+    {
+        return view();
+    }
+    public function do_add_rule()
+    {
+        $name =  $_REQUEST['rule'];
+        $m = $_REQUEST['m'];
+        $c = $_REQUEST['c'];
+        $a = $_REQUEST['a'];
+        $status = $_REQUEST['status'];
+        $result = db('seckill_rule')->where(['m'=>$m,'c'=>$c,'a'=>$a])->find();
+        if($result){
+            $this->error('规则已存在');
+            return;
+        }
+        $data = array('name'=>$name, 'm'=>$m, 'c'=>$c, 'a'=>$a,'status'=>$status,'updatetime'=>time());
+        $result = db('seckill_rule')->insert($data);
+        if($result){
+            $this->success('规则添加成功');
+        }
+        else{
+            $this->error('规则添加失败');
+        }
+        return;
+    }
+    public function sale_list()
+    {
+        $list = db("seckill_sale")->select();
+        $this->assign("list",$list);
+        return view();
+    }
+    public function add_sale()
+    {
+        $list = db("seckill_item")->select();
+        $this->assign("list",$list);
+        return view();
+    }
+    public function do_add_sale()
+    {
+        $item_id =  $_REQUEST['item_id'];
+        $price = $_REQUEST['price'];
+        $old_price = $_REQUEST['old_price'];
+        $amount = $_REQUEST['amount'];
+        $start_time = $_REQUEST['start_time'];
+        $end_time = $_REQUEST['end_time'];
+        $status = $_REQUEST['status'];
+        $result = db('seckill_sale')->where(['item_id'=>$item_id])->select();
+        if($result){
+            $this->error('该商品的促销已存在');
+            return;
+        }
+        $data = array('item_id'=>$item_id, 'price'=>$price, 'old_price'=>$old_price, 'amount'=>$amount,'start_time'=>$start_time,
+                    'end_time'=>$end_time,'status'=>$status);
+        $result = db('seckill_sale')->insert($data);
+        if($result){
+            $result = Db::table('seckill_item')->where('id', $item_id)->setField(['status'=>0]);
+            $this->success('活动添加成功');
+        }
+        else{
+            $this->error('活动添加失败');
+        }
+        return;
+    }
+    public function add_admin()
+    {
+        $list = db("seckill_admin_group")->select();
+        $this->assign("list",$list);
+        return view();
+    }
+    public function do_add_admin()
+    {
+        $role =  $_REQUEST['role'];
+        $username = $_REQUEST['username'];
+        $password = $_REQUEST['pass'];
+        $status = $_REQUEST['status'];
+        $result = db('seckill_admin')->where('username', $username)->select();
+        if($result){
+            $this->error('用户名已存在');
+            return;
+        }
+        $data = array('username'=>$username, 'password'=>md5($password), 'role'=>$role);
+        $result = db('seckill_admin')->insert($data);
+        if($result){
+            $this->success('管理员添加成功');
+        }
+        else{
+            $this->error('管理员添加失败');
+        }
+        return;
+    }
+    public function add_role()
+    {
+        return view();
+    }
+    public function do_add_role()
+    {
+        $role =  $_REQUEST['rolename'];
+        $desc = $_REQUEST['desc'];
+        $rules = $_REQUEST['rules'];
+        $result = db('seckill_admin_group')->where('name', $role)->select();
+        if($result){
+            $this->error('角色名已存在');
+            return;
+        }
+        $data = array('name'=>$role, 'description'=>$desc, 'rules'=>$rules, 'update_time'=>time());
+        $result = db('seckill_admin_group')->insert($data);
+        if($result){
+            $this->success('角色添加成功');
+        }
+        else{
+            $this->error('角色添加失败');
+        }
+        return;
+    }
+    public function del_role()
+    {
+        $id = $_REQUEST['id'];
+        $res = db('seckill_admin_group')->where('id', $id)->delete();
+        if ($res) {
+            echo json_encode(1);
+        } else {
+            echo json_encode(0);
+        }
+        return;
     }
     public function role_list()
     {
@@ -30,7 +157,7 @@ class Main extends Common{
     }
     public function rule_list()
     {
-        $list = db("seckill_menu")->select();
+        $list = db("seckill_rule")->select();
         $this->assign("list",$list);
         return view();
     }
@@ -44,20 +171,20 @@ class Main extends Common{
     {
         return view();
     }
-    public function do_add_advert_place()
-    {
-        $place =  $_REQUEST['place'];
-        $status = $_REQUEST['status'];
-        $data = array('place'=>$place, 'status'=>$status);
-        $result = db('seckill_advert_place')->insert($data);
-        if($result){
-            $this->success('添加成功');
-        }
-        else{
-            $this->error('添加失败');
-        }
-        return;
-    }
+    // public function do_add_advert_place()
+    // {
+    //     $place =  $_REQUEST['place'];
+    //     $status = $_REQUEST['status'];
+    //     $data = array('place'=>$place, 'status'=>$status);
+    //     $result = db('seckill_advert_place')->insert($data);
+    //     if($result){
+    //         $this->success('添加成功');
+    //     }
+    //     else{
+    //         $this->error('添加失败');
+    //     }
+    //     return;
+    // }
     public function advert_list()
     {
         $list = db("seckill_advert")->select();
@@ -139,6 +266,17 @@ class Main extends Common{
     {
         $id = $_REQUEST['id'];
         $res = db('seckill_item_brand')->where('id', $id)->delete();
+        if ($res) {
+            echo json_encode(1);
+        } else {
+            echo json_encode(0);
+        }
+        return;
+    }
+    public function del_item_type()
+    {
+        $id = $_REQUEST['id'];
+        $res = db('seckill_item_type')->where('id', $id)->delete();
         if ($res) {
             echo json_encode(1);
         } else {

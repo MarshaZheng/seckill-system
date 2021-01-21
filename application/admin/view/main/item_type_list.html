@@ -56,12 +56,10 @@
                                     <td>{$vo.name}</td>
                                     <td>{$vo.status}</td>
                                     <td class="td-manage">
-                                      <a title="编辑"  onclick="xadmin.open('编辑','member-edit.html',600,400)" href="javascript:;">
-                                        <i class="layui-icon">&#xe642;</i>
-                                      </a>
                                       
-                                      <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">
-                                        <i class="layui-icon">&#xe640;</i>
+                                      <a title="删除" href="javascript:;" onclick="member_del(this,'{$vo.id}')" 
+                                      style="text-decoration:none">
+                                          <i class="layui-icon">&#xe640;</i>
                                       </a>
                                     </td>
                                   </tr>
@@ -74,6 +72,31 @@
         </div> 
     </body>
     <script>
+      function member_del(obj,id){
+            layer.confirm('确认要删除吗？',function(index){
+              $.ajax({
+                url: '/index.php/admin/Main/del_item_type',
+                type: "POST",
+                data:{"id":id},
+                dataType: "json",
+                async:true,
+                success:function (msg) {
+                  if(msg == 1){
+                    //发异步删除数据
+                    $(obj).parents("tr").remove();
+                    layer.msg('已删除!',{icon:1,time:1000});
+                  }
+                  if(msg == 0){
+                    //发异步删除数据
+                    layer.msg('删除失败!',{icon:1,time:1000});
+                  }
+                },
+                error:function(msg){
+                  layer.msg("ajax error: ",{icon:1,time:1000});
+                }
+              });
+            });
+        }
         layui.use(['laydate','form'], function(){
           var laydate = layui.laydate;
           var  form = layui.form;
@@ -107,32 +130,10 @@
         
   
         /*用户-删除*/
-        function member_del(obj,id){
-            layer.confirm('确认要删除吗？',function(index){
-                //发异步删除数据
-                $(obj).parents("tr").remove();
-                layer.msg('已删除!',{icon:1,time:1000});
-            });
-        }
   
   
   
-        function delAll (argument) {
-          var ids = [];
-  
-          // 获取选中的id 
-          $('tbody input').each(function(index, el) {
-              if($(this).prop('checked')){
-                 ids.push($(this).val())
-              }
-          });
-    
-          layer.confirm('确认要删除吗？'+ids.toString(),function(index){
-              //捉到所有被选中的，发异步进行删除
-              layer.msg('删除成功', {icon: 1});
-              $(".layui-form-checked").not('.header').parents('tr').remove();
-          });
-        }
+      
       </script>
 
 </html>

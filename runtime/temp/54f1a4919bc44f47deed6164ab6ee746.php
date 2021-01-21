@@ -1,4 +1,4 @@
-<?php /*a:2:{s:69:"/var/www/html/seckill-system/application/admin/view/main/welcome.html";i:1610528701;s:68:"/var/www/html/seckill-system/application/admin/view/public/head.html";i:1609921784;}*/ ?>
+<?php /*a:2:{s:69:"/var/www/html/seckill-system/application/admin/view/main/welcome.html";i:1611123616;s:68:"/var/www/html/seckill-system/application/admin/view/public/head.html";i:1609921784;}*/ ?>
 <!DOCTYPE html>
 <html class="x-admin-sm">
     <head>
@@ -14,19 +14,79 @@
 <script src="/static/lib/layui/layui.js" charset="utf-8"></script>
 <script type="text/javascript" src="/static/js/xadmin.js"></script>
     </head>
-    <body>
-        <div class="layui-fluid">
-            <div class="layui-row layui-col-space15">
-                <div class="layui-col-md12">
-                    <div class="layui-card">
-                        <div class="layui-card-body ">
-                            欢迎来到淘多多商城！
-                            <img src="/static/upload/admin/welcome.png"   />
+        <body>
+            <div class="layui-fluid">
+                <div class="layui-row layui-col-space15">
+                    <div class="layui-col-md12">
+                        <div class="layui-card">
+                            <div class="layui-card-body ">
+                                <blockquote class="layui-elem-quote">欢迎管理员：
+                                    <span class="x-red">test</span>
+                                </blockquote>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    <div class="layui-col-md12">
+                        <div class="layui-card">
+                            <div class="layui-card-header">数据统计</div>
+                            <div class="layui-card-body ">
+                                <ul class="layui-row layui-col-space10 layui-this x-admin-carousel x-admin-backlog">
+                                    <li class="layui-col-md2 layui-col-xs6">
+                                        <a href="javascript:;" class="x-admin-backlog-body">
+                                            <h3>商品数</h3>
+                                            <p>
+                                                <cite>66</cite></p>
+                                        </a>
+                                    </li>
+                                    <li class="layui-col-md2 layui-col-xs6">
+                                        <a href="javascript:;" class="x-admin-backlog-body">
+                                            <h3>订单数</h3>
+                                            <p>
+                                                <cite>12</cite></p>
+                                        </a>
+                                    </li>
+                                    <li class="layui-col-md2 layui-col-xs6">
+                                        <a href="javascript:;" class="x-admin-backlog-body">
+                                            <h3>会员数</h3>
+                                            <p>
+                                                <cite>99</cite></p>
+                                        </a>
+                                    </li>
+                                    <li class="layui-col-md2 layui-col-xs6">
+                                        <a href="javascript:;" class="x-admin-backlog-body">
+                                            <h3>促销数</h3>
+                                            <p>
+                                                <cite>67</cite></p>
+                                        </a>
+                                    </li>
+                                    <li class="layui-col-md2 layui-col-xs6">
+                                        <a href="javascript:;" class="x-admin-backlog-body">
+                                            <h3>管理员数</h3>
+                                            <p>
+                                                <cite>67</cite></p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <div class="layui-col-md12">
+                        <div class="layui-card">
+                            <div class="layui-card-header">开发团队</div>
+                            <div class="layui-card-body ">
+                                <table class="layui-table">
+                                    <tbody>
+                                        <tr>
+                                            <th>开发者</th>
+                                            <td>郑彤(2001210557@stu.pku.edu.cn)</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                   
             </div>
-        </div>
-        </div>
-    </body>
-</html>
+            </div>
+        </body>
+    </html>

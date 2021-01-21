@@ -1,4 +1,4 @@
-<?php /*a:4:{s:67:"/var/www/html/seckill-system/application/admin/view/main/index.html";i:1610524499;s:68:"/var/www/html/seckill-system/application/admin/view/public/head.html";i:1609921784;s:67:"/var/www/html/seckill-system/application/admin/view/public/top.html";i:1610973896;s:68:"/var/www/html/seckill-system/application/admin/view/public/menu.html";i:1610980873;}*/ ?>
+<?php /*a:4:{s:67:"/var/www/html/seckill-system/application/admin/view/main/index.html";i:1610524499;s:68:"/var/www/html/seckill-system/application/admin/view/public/head.html";i:1609921784;s:67:"/var/www/html/seckill-system/application/admin/view/public/top.html";i:1611123737;s:68:"/var/www/html/seckill-system/application/admin/view/public/menu.html";i:1610980873;}*/ ?>
 <!doctype html>
 <html class="x-admin-sm">
     <head>
@@ -28,15 +28,11 @@
             <dl class="layui-nav-child">
                 <!-- 二级菜单 -->
                 <dd>
-                    <a onclick="xadmin.open('个人信息','http://www.baidu.com')">个人信息</a></dd>
-                <dd>
-                    <a onclick="xadmin.open('切换帐号','http://www.baidu.com')">切换帐号</a></dd>
-                <dd>
-                    <a href="./login.html">退出</a></dd>
+                    <a href="./login.html">安全退出</a></dd>
             </dl>
         </li>
         <li class="layui-nav-item to-index">
-            <a href="/">前台首页</a></li>
+            <a href="/index.php/user/login/index">前台首页</a></li>
     </ul>
 </div>
         <!-- 顶部结束 -->

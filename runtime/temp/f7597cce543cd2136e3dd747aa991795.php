@@ -1,4 +1,4 @@
-<?php /*a:2:{s:71:"/var/www/html/seckill-system/application/admin/view/main/role_list.html";i:1610976450;s:68:"/var/www/html/seckill-system/application/admin/view/public/head.html";i:1609921784;}*/ ?>
+<?php /*a:2:{s:71:"/var/www/html/seckill-system/application/admin/view/main/role_list.html";i:1611195393;s:68:"/var/www/html/seckill-system/application/admin/view/public/head.html";i:1609921784;}*/ ?>
 <!DOCTYPE html>
 <html class="x-admin-sm">
     
@@ -49,7 +49,7 @@
                             </form>
                         </div> -->
                         <div class="layui-card-header">
-                            <button class="layui-btn" onclick="xadmin.open('添加广告','./add_admin.html',600,400)"><i class="layui-icon"></i>添加</button>
+                            <button class="layui-btn" onclick="xadmin.open('添加角色','./add_role.html',600,400)"><i class="layui-icon"></i>添加</button>
                         </div>
                         <div class="layui-card-body layui-table-body layui-table-main">
                             <table class="layui-table layui-form">
@@ -87,7 +87,7 @@
         </div> 
     </body>
     <script>
-      function member_del(obj,id){
+     function member_del(obj,id){
             layer.confirm('确认要删除吗？',function(index){
               $.ajax({
                 url: '/index.php/admin/Main/del_role',

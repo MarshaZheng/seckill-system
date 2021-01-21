@@ -1,3 +1,4 @@
+<?php /*a:1:{s:70:"/var/www/html/seckill-system/application/admin/view/main/add_role.html";i:1611195968;}*/ ?>
 <!DOCTYPE html>
 <html class="x-admin-sm">
     
@@ -21,41 +22,26 @@
     <body>
         <div class="layui-fluid">
             <div class="layui-row">
-                <form class="layui-form" action="/index.php/admin/Main/do_add_rule"  method="post">
+                <form class="layui-form" action="/index.php/admin/Main/do_add_role"  method="post">
                     <div class="layui-form-item">
                         <label for="L_email" class="layui-form-label">
-                            <span class="x-red">*</span>规则名</label>
+                            <span class="x-red">*</span>角色名</label>
                         <div class="layui-input-inline">
-                            <input type="text" name="rule" required="" lay-verify="required" autocomplete="off" class="layui-input"></div>
+                            <input type="text" name="rolename" required="" lay-verify="required" autocomplete="off" class="layui-input"></div>
                     </div>
-                    <div class="layui-form-item">
-                        <label for="L_email" class="layui-form-label">
-                            <span class="x-red">*</span>模型</label>
-                        <div class="layui-input-inline">
-                            <input type="text" name="m" required="" lay-verify="required|check" autocomplete="off" class="layui-input"></div>
-                            <div class="layui-form-mid layui-word-aux">只能是英文和下划线</div>
-                    </div>
-                    <div class="layui-form-item">
-                        <label for="L_email" class="layui-form-label">
-                            <span class="x-red">*</span>控制器</label>
-                        <div class="layui-input-inline">
-                            <input type="text" name="c" required="" lay-verify="required|check" autocomplete="off" class="layui-input"></div>
-                            <div class="layui-form-mid layui-word-aux">只能是英文和下划线</div>
-                    </div>
-                    <div class="layui-form-item">
-                        <label for="L_email" class="layui-form-label">
-                            <span class="x-red">*</span>方法</label>
-                        <div class="layui-input-inline">
-                            <input type="text" name="a" required="" lay-verify="required|check" autocomplete="off" class="layui-input"></div>
-                            <div class="layui-form-mid layui-word-aux">只能是英文和下划线</div>
-                    </div>
-                    <div class="layui-form-item">
-                        <label class="layui-form-label">是否可见</label>
+                    <div class="layui-form-item layui-form-text">
+                        <label class="layui-form-label">描述</label>
                         <div class="layui-input-block">
-                          <input type="radio" name="status" value="1" title="是" checked>
-                          <input type="radio" name="status" value="0" title="否" >
+                          <textarea name="desc" placeholder="请输入内容" class="layui-textarea"></textarea>
                         </div>
                       </div>
+                    <div class="layui-form-item">
+                        <label for="L_email" class="layui-form-label">
+                            <span class="x-red">*</span>拥有的权限规则</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="rules" required="" lay-verify="required|check" autocomplete="off" class="layui-input"></div>
+                            <div class="layui-form-mid layui-word-aux">规则数字请用,隔开</div>
+                    </div>
                     <div class="layui-form-item">
                         <label for="L_repass" class="layui-form-label"></label>
                         <button class="layui-btn" lay-filter="add" lay-submit="">增加</button></div>
@@ -70,8 +56,8 @@
                 form.verify({
                     check: function(value){
                         //alert(/^[a-zA-Z]\w{2,14}$/.test(value));
-                        if(! /^[a-zA-Z]\w{1,14}$/.test(value)){
-                            return '只能是英文和下划线';
+                        if(! /^(\d+[,])*(\d+)$/.test(value)){
+                            return '数字请用,隔开';
                         }
                     }
                 });

@@ -21,26 +21,21 @@
     <body>
         <div class="layui-fluid">
             <div class="layui-row">
-                <form class="layui-form" action="/index.php/admin/Main/do_add_admin"  method="post">
-                    <div class="layui-form-item">
-                        <label class="layui-form-label">角色</label>
-                        <div class="layui-input-block">
-                          <select name="role" lay-verify="required">
-                            <option value="">请选择</option>
-                            {volist name="list" id="vo"}
-                            <tbody>
-                            <tr><option value={$vo.name}>{$vo.name}</option></tr>
-                            </tbody>{/volist}
-                          </select>
-                      </div>
-                    </div>
+                <form class="layui-form">
                     <div class="layui-form-item">
                         <label for="L_email" class="layui-form-label">
-                            <span class="x-red">*</span>用户名</label>
+                            <span class="x-red">*</span>昵称</label>
                         <div class="layui-input-inline">
-                            <input type="text" id="L_username" name="username" required="" lay-verify="required|name" autocomplete="off" class="layui-input"></div>
+                            <input type="text" id="L_email" name="email" required="" lay-verify="required|name" autocomplete="off" class="layui-input"></div>
                         <div class="layui-form-mid layui-word-aux">
                             <span class="x-red">*</span>字母开头，可以包含字母、数字、下划线，3-15个字符</div></div>
+                    <div class="layui-form-item">
+                        <label for="L_username" class="layui-form-label">
+                            <span class="x-red">*</span>手机号</label>
+                        <div class="layui-input-inline">
+                            <input type="text" id="L_username" name="username" required="" lay-verify="required|phone" autocomplete="off" class="layui-input"></div>
+                            <div class="layui-form-mid layui-word-aux">
+                                <span class="x-red">*</span>11位数字</div></div>
                     <div class="layui-form-item">
                         <label for="L_pass" class="layui-form-label">
                             <span class="x-red">*</span>密码</label>
@@ -53,13 +48,6 @@
                         <div class="layui-input-inline">
                             <input type="password" id="L_repass" name="repass" required="" lay-verify="required|repass" autocomplete="off" class="layui-input"></div>
                     </div>
-                    <div class="layui-form-item">
-                        <label class="layui-form-label">是否可见</label>
-                        <div class="layui-input-block">
-                          <input type="radio" name="status" value="1" title="是" checked>
-                          <input type="radio" name="status" value="0" title="否" >
-                        </div>
-                      </div>
                     <div class="layui-form-item">
                         <label for="L_repass" class="layui-form-label"></label>
                         <button class="layui-btn" lay-filter="add" lay-submit="">增加</button></div>
@@ -99,6 +87,19 @@
     
     
       </script>
+          <script>
+            $(function(){
+                    // 刷新验证码
+                    var verifyimg = $(".verifyimg").attr("src");
+                    $(".reloadverify").click(function(){
+                        if( verifyimg.indexOf('?')>0){
+                            $(".verifyimg").attr("src", verifyimg+'&random='+Math.random());
+                        }else{
+                            $(".verifyimg").attr("src", verifyimg.replace(/\?.*$/,'')+'?'+Math.random());
+                        }
+                    });
+                })
+        </script>
     </body>
 
 </html>

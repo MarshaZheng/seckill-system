@@ -1,3 +1,4 @@
+<?php /*a:1:{s:70:"/var/www/html/seckill-system/application/admin/view/main/add_rule.html";i:1611197974;}*/ ?>
 <!DOCTYPE html>
 <html class="x-admin-sm">
     

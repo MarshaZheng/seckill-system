@@ -1,4 +1,4 @@
-<?php /*a:2:{s:71:"/var/www/html/seckill-system/application/admin/view/main/item_list.html";i:1610528789;s:68:"/var/www/html/seckill-system/application/admin/view/public/head.html";i:1609921784;}*/ ?>
+<?php /*a:2:{s:71:"/var/www/html/seckill-system/application/admin/view/main/item_list.html";i:1611197480;s:68:"/var/www/html/seckill-system/application/admin/view/public/head.html";i:1609921784;}*/ ?>
 <!DOCTYPE html>
 <html class="x-admin-sm">
     
@@ -130,14 +130,6 @@
         
   
         /*用户-删除*/
-        function member_del(obj,id){
-            layer.confirm('确认要删除吗？',function(index){
-                //发异步删除数据
-                $(obj).parents("tr").remove();
-                layer.msg('已删除!',{icon:1,time:1000});
-            });
-        }
-  
   
   
         function delAll (argument) {

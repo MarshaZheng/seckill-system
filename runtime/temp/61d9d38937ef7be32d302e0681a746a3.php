@@ -1,3 +1,4 @@
+<?php /*a:1:{s:66:"/var/www/html/seckill-system/application/user/view/main/index.html";i:1611204170;}*/ ?>
 ﻿<!DOCTYPE html>
 <html class="no-js" lang="zxx">
 
@@ -232,19 +233,19 @@
         <section class="slider-area">
             <div class="hero-slider-active slick-arrow-style slick-arrow-style_hero slick-dot-style">
                 <!-- single slider item start -->
-                {volist name="list" id="vo"}
+                <?php if(is_array($list) || $list instanceof \think\Collection || $list instanceof \think\Paginator): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
 
                 <tbody>
                   <tr>
                 
                 <div class="hero-single-slide ">
-                    <div class="hero-slider-item bg-img" data-bg="/static/upload/admin/{$vo.image}">
+                    <div class="hero-slider-item bg-img" data-bg="/static/upload/admin/<?php echo htmlentities($vo['image']); ?>">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="hero-slider-content slide-1">
-                                        <span>{$vo.brand}</span>
-                                        <h1>{$vo.description}</h1>
+                                        <span><?php echo htmlentities($vo['brand']); ?></span>
+                                        <h1><?php echo htmlentities($vo['description']); ?></h1>
                                         <a href="shop.html" class="btn-hero">shop now</a>
                                     </div>
                                 </div>
@@ -252,7 +253,7 @@
                         </div>
                     </div>
                 </div></tr>
-            </tbody>{/volist}
+            </tbody><?php endforeach; endif; else: echo "" ;endif; ?>
                 <!-- single slider item end -->
                 <!-- single slider item start -->
             </div>
@@ -339,16 +340,16 @@
                 </div>
                 <div class="row mtn-40">
                     <!-- product single item start -->
-                    {volist name="list2" id="vo2"}
+                    <?php if(is_array($list2) || $list2 instanceof \think\Collection || $list2 instanceof \think\Paginator): $i = 0; $__LIST__ = $list2;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo2): $mod = ($i % 2 );++$i;?>
 
                 <tbody><tr>
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <div class="product-item mt-40">
                             <figure class="product-thumb">
                                 <a href="product-details.html">
-                                    <img class="pri-img" src="/static/upload/admin/{$vo2.image}" alt="product" style="width: 300px;
+                                    <img class="pri-img" src="/static/upload/admin/<?php echo htmlentities($vo2['image']); ?>" alt="product" style="width: 300px;
                                     height:300px;margin-right: 10px;">
-                                    <img class="sec-img" src="/static/upload/admin/{$vo2.image}" alt="product" style="width: 300px;
+                                    <img class="sec-img" src="/static/upload/admin/<?php echo htmlentities($vo2['image']); ?>" alt="product" style="width: 300px;
                                     height:300px;margin-right: 10px;">
                                 </a>
                                 <div class="product-badge">
@@ -367,15 +368,15 @@
                             </figure>
                             <div class="product-caption">
                                 <p class="product-name">
-                                    <a href="product-details.html">{$vo2.brand}{$vo2.name}</a>
+                                    <a href="product-details.html"><?php echo htmlentities($vo2['brand']); ?><?php echo htmlentities($vo2['name']); ?></a>
                                 </p>
                                 <div class="price-box">
-                                    <span class="price-regular">¥{$vo2.price}</span>
+                                    <span class="price-regular">¥<?php echo htmlentities($vo2['price']); ?></span>
                                     
                                 </div>
                             </div>
                         </div>
-                    </div></tr></tbody>{/volist}
+                    </div></tr></tbody><?php endforeach; endif; else: echo "" ;endif; ?>
                     <!-- product single item end -->
 
             
@@ -407,7 +408,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="product-carousel--4 slick-row-15 slick-sm-row-10 slick-arrow-style">
-                            {volist name="list" id="vo"}
+                            <?php if(is_array($list) || $list instanceof \think\Collection || $list instanceof \think\Paginator): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
                             <tbody>
                             <tr>
                             <!-- product single item start -->
@@ -441,7 +442,7 @@
                            
                             <!-- product single item end -->
                               </tr>
-                            </tbody>{/volist}
+                            </tbody><?php endforeach; endif; else: echo "" ;endif; ?>
                         </div>
                     </div>
                 </div>

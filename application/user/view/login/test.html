@@ -1,0 +1,17 @@
+<html>
+    <script type="text/javascript">
+        var time = 60;
+        var clean = setInterval(function () {
+            time = time - 1;
+            document.getElementById("time").innerHTML = time;
+            if(time == 0){
+                document.getElementById("button").disabled = false;
+                clearInterval(clean);
+            }
+        }, 1000);
+    
+    </script>
+    <p><input type="button" id="button" value="确定" disabled="ture" onclick="window.location='/entity/student/englishApply.jsp' ">
+    </p><p><span id="time">60</span> 秒后可以点击确定</p>
+
+</html>

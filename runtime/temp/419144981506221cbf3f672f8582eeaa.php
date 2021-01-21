@@ -1,4 +1,4 @@
-<?php /*a:2:{s:72:"/var/www/html/seckill-system/application/admin/view/main/admin_list.html";i:1610975027;s:68:"/var/www/html/seckill-system/application/admin/view/public/head.html";i:1609921784;}*/ ?>
+<?php /*a:2:{s:72:"/var/www/html/seckill-system/application/admin/view/main/admin_list.html";i:1611194217;s:68:"/var/www/html/seckill-system/application/admin/view/public/head.html";i:1609921784;}*/ ?>
 <!DOCTYPE html>
 <html class="x-admin-sm">
     
@@ -49,7 +49,7 @@
                             </form>
                         </div> -->
                         <div class="layui-card-header">
-                            <button class="layui-btn" onclick="xadmin.open('添加广告','./add_admin.html',600,400)"><i class="layui-icon"></i>添加</button>
+                            <button class="layui-btn" onclick="xadmin.open('添加管理员','./add_admin.html',600,400)"><i class="layui-icon"></i>添加</button>
                         </div>
                         <div class="layui-card-body layui-table-body layui-table-main">
                             <table class="layui-table layui-form">

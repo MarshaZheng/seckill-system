@@ -28,7 +28,7 @@ class Common extends Controller {
     //     //var_dump($this->user_id,$this->user_name);
         //权限检查
         if (!$this->_checkAuthor($data['role'])) {
-            $this->error('你无权限操作');
+            $this->error('你无权限操作','/index.php/admin/main/index');
         }
 
     //     // //记录日志

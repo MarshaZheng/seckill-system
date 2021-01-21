@@ -10,7 +10,7 @@ class Main extends Controller {
     {
         $list = db("seckill_advert")->select();
         $this->assign("list",$list);
-        $list2 = db("seckill_item")->select();
+        $list2 = db("seckill_item")->where("status",1)->limit(4)->select();
         $this->assign("list2",$list2);
         return view();
     }
